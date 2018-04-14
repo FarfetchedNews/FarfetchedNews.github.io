@@ -12,3 +12,11 @@ text-align: center;
 p  {
 text-align: center;
 }
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    text-align: right;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
