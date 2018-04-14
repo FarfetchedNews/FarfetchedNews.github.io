@@ -14,11 +14,10 @@ text-align: center;
 }
 .pagination {
     display: inline-block;
-    text-align: right;
 }
 .pagination a {
     color: black;
-    float: left;
+    float: right;
     padding: 8px 16px;
     text-decoration: none;
     transition: background-color .3s;
