@@ -13,8 +13,10 @@ p  {
 text-align: center;
 }
 .pagination {
-    text-align: right;
     display: inline-block;
+}
+.right{
+text-align: right;
 }
 .pagination a {
     color: black;
