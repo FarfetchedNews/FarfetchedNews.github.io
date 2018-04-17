@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h3>Welcome to Farfetched News</h3>
+<p>Type something and it will show up</p>
+<label>Input</label>
+		<input type="text" name="FirstName" value=""oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+		<script>
+		function weightConverter(valNum) {document.getElementById("outputKilograms").innerHTML=valNum;}
+	        </script>
+<p>My name is <span id="outputKilograms"></span> and I suck at minecraft!</p>
+</body>
+</html>
