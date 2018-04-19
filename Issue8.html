@@ -4,10 +4,12 @@
 <h3>Welcome to Farfetched News</h3>
 <p>Type something and it will show up</p>
 <label>Input</label>
-		<input type="text" name="FirstName" value=""oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+		<input type="text" name="FirstName" value=""oninput="Input(this.value)" onchange="Input(this.value)">
+<label>Input2</label>
+		<input type="text" name="FirstName" value=""oninput="Input2(this.value)" onchange="Input2(this.value)">
 		<script>
-		function weightConverter(valNum) {document.getElementById("outputKilograms").innerHTML=valNum;}
+		function Input2(valNum) {document.getElementById("Input2Output").innerHTML=valNum;}
 	        </script>
-<p>My name is &quot;<span id="outputKilograms"></span>&quot; and I suck at minecraft!</p>
+<p>My name is &quot;<span id="InputOutput"></span>&quot; and I suck at minecraft!<span id="Input2Output"></span</p>
 </body>
 </html>
