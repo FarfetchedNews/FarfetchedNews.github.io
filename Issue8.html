@@ -8,6 +8,7 @@
 <label>Input2</label>
 		<input type="text" name="FirstName" value=""oninput="Input2(this.value)" onchange="Input2(this.value)">
 		<script>
+		function Input(valNum) {document.getElementById("InputOutput").innerHTML=valNum;}
 		function Input2(valNum) {document.getElementById("Input2Output").innerHTML=valNum;}
 	        </script>
 <p>My name is &quot;<span id="InputOutput"></span>&quot; and I suck at minecraft!<span id="Input2Output"></span</p>
