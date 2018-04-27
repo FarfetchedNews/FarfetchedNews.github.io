@@ -14,7 +14,7 @@
 <p>My name is &quot;<span id="InputOutput"></span>&quot; and I suck at minecraft!<span id="Input2Output"></span</p>
 </body>
 </html>
-
+<!DOCTYPE html>
 <html>
 <head>
 <style>
@@ -25,11 +25,9 @@ ul {
     overflow: hidden;
     background-color: #333; /* Top bar color */
 }
-
 li {
     float: left;
 }
-
 li a, .dropbtn {
     display: inline-block;
     color: white; /* Top bar text color */
@@ -37,16 +35,13 @@ li a, .dropbtn {
     padding: 14px 16px;
     text-decoration: none;
 }
-
 li a:hover, .dropdown:hover .dropbtn {
     background-color: #0044cc; /* Hover over option color */ 
     text-decoration: underline;
 }
-
 li.dropdown {
     display: inline-block;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -55,7 +50,6 @@ li.dropdown {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
-
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -63,15 +57,101 @@ li.dropdown {
     display: block;
     text-align: left;
 }
-
 .dropdown-content a:hover {background-color: #f1f1f1}
-
 .dropdown:hover .dropdown-content {
     display: block;
 }
 </style>
 </head>
 <body>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">SWEP Creator</a>
+    <div class="dropdown-content">
+      <a href="#start">Start Creator</a>
+      <a href="#primary">Primary Fire Attributes</a>
+      <a href="#secondary">Secondary Fire Attributes</a>
+    </div>
+  </li>
+</ul>
+ <h2 id="start"></h2>
+<h3>Welcome to Rubric's SWEP Creator!</h3>
+<p>Hover over "SWEP Creator" up top to jump to a part within the creator.</p>
+ <br>
+SWEP.PrintName      = "" <br>
+SWEP.Author         = "" <br>
+SWEP.Instructions   = "" <br>
+SWEP.Contact        = "" <br>
+SWEP.Purpose        = "" <br>
+
+SWEP.Category       = "" <br>
+SWEP.Spawnable      = true <br>
+SWEP.AdminOnly      = false <br>
+ <h2 id="primary"></h2>
+SWEP.Primary.Sound         = "" <br> 
+SWEP.Primary.Damage        = 4 <br>
+SWEP.Primary.TakeAmmo      = 1 <br>
+SWEP.Primary.ClipSize      = 8 <br>
+SWEP.Primary.Ammo          = "" <br>
+SWEP.Primary.DefaultClip   = 300 <br>
+SWEP.Primary.Spread        = 0.5 <br>
+SWEP.Primary.NumberofShots = 5 <br>
+SWEP.Primary.Automatic     = true <br>
+SWEP.Primary.Recoil        = 0 <br>
+SWEP.Primary.Delay         = 0.2 <br>
+SWEP.Primary.Force         = 100 <br>
+SWEP.ReloadSound = "" <br>
+ <h2 id="secondary"></h2>
+SWEP.Secondary.Sound         = "" <br>
+SWEP.Secondary.Damage        = 0 <br>
+SWEP.Secondary.TakeAmmo      = 0 <br>
+SWEP.Secondary.ClipSize      = -1 <br>
+SWEP.Secondary.Ammo          = "" <br>
+SWEP.Secondary.DefaultClip   = -1 <br>
+SWEP.Secondary.Spread        = 0 <br>
+SWEP.Secondary.NumberofShots = 0 <br>
+SWEP.Secondary.Automatic     = false <br>
+SWEP.Secondary.Recoil        = 0 <br>
+SWEP.Secondary.Delay         = 0 <br>
+SWEP.Secondary.Force         = 0 <br>
+ <br>
+SWEP.m_WeaponDeploySpeed = 1 <br>
+SWEP.Weight           = 5 <br>
+SWEP.AutoSwitchTo     = false <br>
+SWEP.AutoSwitchFrom   = false <br>
+SWEP.FiresUnderwater = true <br>
+ <br>
+SWEP.Slot          = 2 <br>
+SWEP.SlotPos       = 1 <br>
+SWEP.DrawAmmo      = true <br>
+SWEP.DrawCrosshair = true <br>
+ <br>
+SWEP.HoldType 	   = "" <br>
+SWEP.UseHands 	   = true <br>
+ <br>
+SWEP.ViewModelFOV       = 70 <br>
+SWEP.ViewModel			= "" <br>
+SWEP.ViewModelFlip 		= false <br>
+SWEP.ShowViewModel 		= true <br>
+ <br>
+SWEP.WorldModel 		= "" <br>
+SWEP.ShowWorldModel	    = false <br>
+ <br>
+SWEP.ViewModelBoneMods = {
+
+}
+ <br>
+SWEP.VElements = {
+}
+ <br>
+SWEP.WElements = {
+}
+</br>
+</body>
+</html>
 
 <ul>
   <li><a href="#home">Home</a></li>
