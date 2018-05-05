@@ -1,28 +1,41 @@
 body{
 font-family: "Palatino";
 }
-h1  {
-font-family: "Aclonica";
-text-align: center;
-background: url(FNLogo.png);
-background-position: left top;
+
+
+
+.aclonica{
+    font-family: "Aclonica";
 }
-h3  {
-font-family: "Aclonica";
-text-align: center;
-}
-p  {
-text-align: center;
+
+
+
+.paragraphborder  {
 border-radius: 25px;
 padding: 20px;
 border: 2px solid #73AD21;
 }
-.pagination {
-    display: inline-block;
-}
+
+
+
 .right{
 text-align: right;
 }
+
+.center{
+ text-align: right;
+}
+    
+.left{
+text-align: left;
+}
+
+
+
+.pagination {
+    display: inline-block;
+}
+
 .pagination a {
     color: black;
     float: right;
@@ -30,11 +43,15 @@ text-align: right;
     text-decoration: none;
     transition: background-color .3s;
 }
+
 .pagination a.active {
     background-color: #4CAF50;
     color: white;
 }
+
 .pagination a:hover:not(.active) {background-color: #ddd;}
+
+
 
 span.credits {
     display: inline-block;
@@ -44,4 +61,3 @@ span.credits {
     border: 3px solid green;        
     background-color: white; 
 }
-
