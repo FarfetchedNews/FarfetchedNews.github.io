@@ -55,6 +55,7 @@ text-align: left;
 
 span.credits {
     display: inline-block;
+    text-align: center;
     width: 140px;
     height: 280px;
     padding: 15px;
