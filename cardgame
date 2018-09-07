@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style=text-align:center;font-size:250%;>Low Card</h1>
+<h4 style=text-align:center;>Directions <br> You and your opponent both flip your own cards marked "flip card".  The objective of the game is to have the lowest sum of all of the cards.  You may choose 5 cards marked "draw".  If you flip a 1-3 from the draw pile, you may reroll one of your cards by clicking on the number.  If you flip a 6-7 from the draw pile, you may reroll one of your opponents cards. Numbers 4-5 and 8-9 are trash and do nothing.
+</h4>
+<p style=text-align:left;>
+<button id="demo" onclick="myFunction()">Flip Card</button>
+
+<p style=text-align:right;><button id="demo6" onclick="myFunction6()">Flip Card</button>
+</p>
+
+<button id="demo2" onclick="myFunction2()">Flip Card</button>
+
+<p style=text-align:right;><button id="demo7" onclick="myFunction7()">Flip Card</button>
+</p>
+
+<button id="demo3" onclick="myFunction3()">Flip Card</button>
+<br>
+<p style=text-align:right;><button id="demo8" onclick="myFunction8()">Flip Card</button>
+</p>
+
+<button id="demo4" onclick="myFunction4()">Flip Card</button>
+
+<p style=text-align:right;><button id="demo9" onclick="myFunction9()">Flip Card</button>
+</p>
+
+<button id="demo5" onclick="myFunction5()">Flip Card</button>
+<p style=text-align:right;><button id="demo10" onclick="myFunction10()">Flip Card</button>
+</p>
+
+
+
+<script>
+for y in 25
+function 'myFunction'+'y'(){
+	var x = Math.floor((Math.random() * 9) + 1);
+    document.getElementById("demo"+"y").innerHTML = x;
+    
+//function myFunction() {
+//    var x = Math.floor((Math.random() * 9) + 1);
+//    document.getElementById("demo").innerHTML = x;
+//}
+
+function myFunction2() {
+    var x = Math.floor((Math.random() * 9) + 1);
+    document.getElementById("demo2").innerHTML = x;
+}
+function myFunction3() {
+    var x = Math.floor((Math.random() * 9) + 1);
+    document.getElementById("demo3").innerHTML = x;
+}
+function myFunction4() {
+    var x = Math.floor((Math.random() * 9) + 1);
+    document.getElementById("demo4").innerHTML = x;
+}
+function myFunction5() {
+    var x = Math.floor((Math.random() * 9) + 1);
+    document.getElementById("demo5").innerHTML = x;
+}
+
+
+
+function myFunction6() {
+    var x = Math.floor((Math.random() * 9) + 1);
+    document.getElementById("demo6").innerHTML = x;
+}
+function myFunction7() {
+    var x = Math.floor((Math.random() * 9) + 1);
+    document.getElementById("demo7").innerHTML = x;
+}
+function myFunction8() {
+    var x = Math.floor((Math.random() * 9) + 1);
+    document.getElementById("demo8").innerHTML = x;
+}
+function myFunction9() {
+    var x = Math.floor((Math.random() * 9) + 1);
+    document.getElementById("demo9").innerHTML = x;
+}
+function myFunction10() {
+    var x = Math.floor((Math.random() * 9) + 1);
+    document.getElementById("demo10").innerHTML = x;
+}
+</script>
+</body>
+<h3 style=text-align:center;> Draw Cards
+</h3>
+
+
+
+</html>
