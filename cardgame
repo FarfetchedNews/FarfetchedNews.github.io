@@ -3,7 +3,7 @@
 <body>
 
 <h1 style=text-align:center;font-size:250%;>Low Card</h1>
-<h4 style=text-align:center;>Directions <br> You and your opponent both flip your own cards marked "flip card".  The objective of the game is to have the lowest sum of all of the cards.  You may choose 5 cards marked "draw".  If you flip a 1-3 from the draw pile, you may reroll one of your cards by clicking on the number.  If you flip a 6-7 from the draw pile, you may reroll one of your opponents cards. Numbers 4-5 and 8-9 are trash and do nothing.
+<h4 style=text-align:center;>Directions <br> You and your opponent both flip your own cards marked "flip card".  The objective of the game is to have the lowest sum of all of the cards.  You may choose 3 cards marked "draw".  If you flip a 1-4 from the draw pile, you may reroll one of your cards by clicking on the number.  If you flip a 6-8 from the draw pile, you may reroll one of your opponents cards. Numbers 5 and 9 are trash and do nothing.
 </h4>
 <p style=text-align:left;>
 <button id="demo" onclick="myFunction()">Flip Card</button>
@@ -33,16 +33,10 @@
 
 
 <script>
-for y in 25
-function 'myFunction'+'y'(){
-	var x = Math.floor((Math.random() * 9) + 1);
-    document.getElementById("demo"+"y").innerHTML = x;
-    
-//function myFunction() {
-//    var x = Math.floor((Math.random() * 9) + 1);
-//    document.getElementById("demo").innerHTML = x;
-//}
-
+function myFunction() {
+    var x = Math.floor((Math.random() * 9) + 1);
+    document.getElementById("demo").innerHTML = x;
+}
 function myFunction2() {
     var x = Math.floor((Math.random() * 9) + 1);
     document.getElementById("demo2").innerHTML = x;
@@ -82,11 +76,71 @@ function myFunction10() {
     var x = Math.floor((Math.random() * 9) + 1);
     document.getElementById("demo10").innerHTML = x;
 }
+
+
+
+
+function myFunction11() {
+    var x = Math.floor((Math.random() * 9) + 1);
+    document.getElementById("demo11").innerHTML = x;
+}
+function myFunction12() {
+    var x = Math.floor((Math.random() * 9) + 1);
+    document.getElementById("demo12").innerHTML = x;
+}
+function myFunction13() {
+    var x = Math.floor((Math.random() * 9) + 1);
+    document.getElementById("demo13").innerHTML = x;
+}
+function myFunction14() {
+    var x = Math.floor((Math.random() * 9) + 1);
+    document.getElementById("demo14").innerHTML = x;
+}
+function myFunction15() {
+    var x = Math.floor((Math.random() * 9) + 1);
+    document.getElementById("demo15").innerHTML = x;
+}
+function myFunction16() {
+    var x = Math.floor((Math.random() * 9) + 1);
+    document.getElementById("demo16").innerHTML = x;
+}
+function myFunction17() {
+    var x = Math.floor((Math.random() * 9) + 1);
+    document.getElementById("demo17").innerHTML = x;
+}
+function myFunction18() {
+    var x = Math.floor((Math.random() * 9) + 1);
+    document.getElementById("demo18").innerHTML = x;
+}
+function myFunction19() {
+    var x = Math.floor((Math.random() * 9) + 1);
+    document.getElementById("demo19").innerHTML = x;
+}
+function myFunction20() {
+    var x = Math.floor((Math.random() * 9) + 1);
+    document.getElementById("demo20").innerHTML = x;
+}
 </script>
 </body>
 <h3 style=text-align:center;> Draw Cards
 </h3>
+<p style=text-align:center;margin:10px;> 
+<button style=margin:10px; id="demo11" onclick="myFunction11()">Flip Card</button>
+<button style=margin:10px; id="demo12" onclick="myFunction12()">Flip Card</button>
+<button style=margin:10px; id="demo13" onclick="myFunction13()">Flip Card</button>
+<button style=margin:10px; id="demo14" onclick="myFunction14()">Flip Card</button>
+<button style=margin:10px; id="demo15" onclick="myFunction15()">Flip Card</button>
+<br>
+<button style=margin:10px; id="demo16" onclick="myFunction16()">Flip Card</button>
+<button style=margin:10px; id="demo17" onclick="myFunction17()">Flip Card</button>
+<button style=margin:10px; id="demo18" onclick="myFunction18()">Flip Card</button>
+<button style=margin:10px; id="demo19" onclick="myFunction19()">Flip Card</button>
+<button style=margin:10px; id="demo20" onclick="myFunction20()">Flip Card</button>
+
+
+
 
 
 
 </html>
+
