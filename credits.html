@@ -103,13 +103,6 @@
 
 	</span>
 	
-	
-	<span class="credits">
-		
-	<p><b>Jacob</b><br> Chief Executive Custodian</p>
-
-	</span>
-	
 		
 	<span class="credits">
 		
@@ -133,6 +126,10 @@
 	</div>
 <p id="CredTimer"></p>
 <p id="message1"></p>
+<p id="message2"></p>
+<p id="message3"></p>	
+<p id="message4"></p>	
+<p id="message5"></p>	
 	
 <script>
 // Set the date we're counting down to
@@ -160,6 +157,18 @@ var x = setInterval(function() {
     //  1000 times seconds you wish to wait
     if (distance > 900000) {
         document.getElementById("message1").innerHTML = ".... . .-.. .-.. --- / - .... . .-. .";
+    }
+    if (distance > 3600000) {
+        document.getElementById("message2").innerHTML = "This is a message";
+    }
+    if (distance > 10800000) {
+        document.getElementById("message3").innerHTML = "This might be a message";
+    }
+    if (distance > 86400000) {
+        document.getElementById("message4").innerHTML = "Who am I?";
+    }
+    if (distance > 604800000) {
+        document.getElementById("message5").innerHTML = "Wow";
     }
 }, 1000);
 
