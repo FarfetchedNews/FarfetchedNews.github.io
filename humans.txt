@@ -1,0 +1,10 @@
+Hello, Farfetched News is developed and maintained by a small group of people. In this document, we will tell you more about ourselves and the company.
+
+The Company
+	Farfetched News began in 2015 with only three people. From that time, we have increased our membership by more than 200% with eleven employees in 2018.
+	In the beginning, we had a site hosted on Weebly, with a very basic layout and design. The site began to look better when we uploaded a logo to the website and eventually redesigned the layout. The weebly site is still online at https://www.farfetchednewsivc.weebly.com
+	For the first month or so of running the site, we had weekly articles and a "polls" section. We became popular among a small group very quickly. Nearing the end of the first quarter of 2017, we had begun to lose popularity, as new content was not being released often.
+	Starting late 2017/early 2018, we began efforts to move our site to GitHub, as Weebly did not give us the ability to change and do the things we wanted to. Right now, the website is still incomplete, but we hope to have it in a presentable from by either the start of 2019, or the end of the first quarter, 2019.
+
+Zach
+	I'm one of the founding members of Farfetched News, and wrote many of the early articles. Since then, I have started work on the game and on making a font for the website. As of the time I am updating this, the font is incomplete.
