@@ -1,5 +1,3 @@
 The verses document is a table of contents
 
-There may be some quotation marks and apostrophes that do not appear correctly on website, I am working on fixing this - Zach
-
 If someone could update the css on these to make them better, that would be great.
