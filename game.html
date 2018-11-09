@@ -11,31 +11,7 @@
 
 <tw-story></tw-story>
 
-<tw-storydata name="game" startnode="1" creator="Twine" creator-version="2.2.1" ifid="75E61B5D-0DC3-4C49-B4E4-5BF5736C5A01" zoom="0.6" format="Harlowe" format-version="2.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">Markup based link [[wake up]]
-
-link macro based link (link: "wake up")[(goto: "wake up")]
-
-link-goto macro based link (link-goto: "wake up", "wake up")
-
-click macro based link Next Passage (click: "wake up")[(goto: "wake up")]
-
-named tag plus click macro based link |wake up>[wake up]
-(click: ?wake up)[(goto: "wake up")]
-
-
-
-
-
-</style><script role="script" id="twine-user-script" type="text/twine-javascript">
-
-
-
-
-
-
-
-
-</script><tw-passagedata pid="1" name="Day 1" tags="" position="0,0" size="100,100">You see an oceanic tornado in the distance. (I said oceanic tornado, not hurricane, deal with it). What type of boat are you in?
+<tw-storydata name="game" startnode="1" creator="Twine" creator-version="2.2.1" ifid="75E61B5D-0DC3-4C49-B4E4-5BF5736C5A01" zoom="0.6" format="Harlowe" format-version="2.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Day 1" tags="" position="0,0" size="100,100">You see an oceanic tornado in the distance. (I said oceanic tornado, not hurricane, deal with it). What type of boat are you in?
 (if: $testVar is 0)[ (set: $milSub to false)(set: $cruShi to false)(set: $carShi to false)(set: $cheBoa to false)(set: $shiBot to false)(set: $testVar to false)]
 (if: $milSub is false)[ [[Military Submarine]] ]
 (if: $cruShi is false)[ [[Cruise Ship]] ]
@@ -199,8 +175,12 @@ YOU DEAD!</tw-passagedata><tw-passagedata pid="53" name="Do as He Says" tags="" 
 [[The Office]]
 [[The Coffin That is Literally in Front of You]]
 [[The Cheese Boat]]
-[[Under the Salad Bar]]</tw-passagedata><tw-passagedata pid="57" name="Pass Out" tags="" position="426,869" size="100,100">As you are getting stabbed, you turn around and shoot the traitor and pass out. Somehow, you know that you didn&#39;t just pass out, you dead. You have passed into a sleep from which you will never (link-reveal: &quot;wake up.&quot;)[(live: 30s)
-[ [[Wake Up.]] (stop:)]]</tw-passagedata><tw-passagedata pid="58" name="Wake Up." tags="" position="424,973" size="100,100">Oh hey, what do you know? You are still alive. You are one persistent fella, I tell you what. Anyhoo, there be a bag o&#39; Skittlez, this gives you urge to yell &quot;Beam me up Skitty,&quot; and whatnot. There a crab scuttlin&#39; about, and uh, oh yeah, you on an island now. You look around and notice the dead bodies of others that had fallen in your little mutiny, and realise that you must have been dumped. You check the bodies and notice something strange, the body of that traitor you shot, Joneis, is not present. You convince yourself that he is still alive, but when a wave carries a body offshore, you become equally convinced that he is dead. 
+[[Under the Salad Bar]]</tw-passagedata><tw-passagedata pid="57" name="Pass Out" tags="" position="426,868" size="100,100">As you are getting stabbed, you turn around and shoot the traitor and pass out. Somehow, you know that you didn&#39;t just pass out, you dead. You have passed into a sleep from which you will never wake up
+(set: $sec to 0)
+(live: 1s)[
+	(set: $sec to it + 1)
+	(if: $sec &gt;= 20)[ [[Wake Up.]] ]
+	]</tw-passagedata><tw-passagedata pid="58" name="Wake Up." tags="" position="424,978" size="100,100">Oh hey, what do you know? You are still alive. You are one persistent fella, I tell you what. Anyhoo, there be a bag o&#39; Skittlez, this gives you urge to yell &quot;Beam me up Skitty,&quot; and whatnot. There a crab scuttlin&#39; about, and uh, oh yeah, you on an island now. You look around and notice the dead bodies of others that had fallen in your little mutiny, and realise that you must have been dumped. You check the bodies and notice something strange, the body of that traitor you shot, Joneis, is not present. You convince yourself that he is still alive, but when a wave carries a body offshore, you become equally convinced that he is dead. 
 After a few minutes, you realise how thirsty you are.
 [[Get a Drink]]
 [[Beam me up Skitty]] 
@@ -220,7 +200,10 @@ After a few minutes, you realise how thirsty you are.
 [[Enter the Room and Lock the Door behind You]]</tw-passagedata><tw-passagedata pid="69" name="Karate Chop the Lock" tags="" position="1894,1005" size="100,100">You hear a small click, turns out it was just your hand breaking, not the lock. You see a bag of skittles, this gives you the urge to yell, beam me up, skitty, but you resist. Your broken hand shatters into pieces.You now only have one hand remaining, now what?
 [[Karate Chop the Lock Again]]
 [[Curl up in a Corner]]
-[[Beam me up Skitty]] </tw-passagedata><tw-passagedata pid="70" name="Tell Joe" tags="" position="946,760" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="71" name="Help the Captain" tags="" position="1056,762" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="72" name="Ask for Skittles" tags="" position="1165,761" size="100,100">You ask the captain if you could have some Skittles. He gives you a puzzled expression before saying &quot;sure.&quot; You, upon receiving the Skittles, immediately shove them into your mouth. The captain says, &quot;I don&#39;t think you should eat that many at once your first time.&quot; As the Skittles enter your mouth, they have an odd flavor. A flavor reminiscent of cyclosarin, chlorine, cyanide and -- rainbows? As you consume the Skittles, you begin to feel like you are dying, of course, after consuming that much poison you are pretty much screwed. 
+[[Beam me up Skitty]] </tw-passagedata><tw-passagedata pid="70" name="Tell Joe" tags="" position="946,760" size="100,100">Why tell Joe?
+[[His Good Looks]]
+[[His Three-Lettered Name]]
+[[His Soul]]</tw-passagedata><tw-passagedata pid="71" name="Help the Captain" tags="" position="1056,762" size="100,100"></tw-passagedata><tw-passagedata pid="72" name="Ask for Skittles" tags="" position="1165,761" size="100,100">You ask the captain if you could have some Skittles. He gives you a puzzled expression before saying &quot;sure.&quot; You, upon receiving the Skittles, immediately shove them into your mouth. The captain says, &quot;I don&#39;t think you should eat that many at once your first time.&quot; As the Skittles enter your mouth, they have an odd flavor. A flavor reminiscent of cyclosarin, chlorine, cyanide and -- rainbows? As you consume the Skittles, you begin to feel like you are dying, of course, after consuming that much poison you are pretty much screwed. 
 You don&#39;t even bother asking for an antidote, you know that the captain doesn&#39;t have any antidote, that&#39;s the secret to his immortality.</tw-passagedata><tw-passagedata pid="73" name="Karate Chop the Lock Again" tags="" position="1894,1114" size="100,100">You see a bag of Skittles, I think you know what that means. Which lock do you want to karate chop?
 [[Beam me up Skitty]] 
 [[The Correct Lock]]
@@ -525,7 +508,9 @@ Here is your prize:
 
 ‽
 
-Use it wisely.</tw-passagedata><tw-passagedata pid="224" name="Beam me up Skitty as Skitty" tags="" position="3174,867" size="100,100">You utter The Phrase &quot;beam me up, Skitty,&quot; causing your death. 
+Use it wisely.
+
+This doesn&#39;t seem very fulfilling. I wonder if there is a better ending than this.</tw-passagedata><tw-passagedata pid="224" name="Beam me up Skitty as Skitty" tags="" position="3174,867" size="100,100">You utter The Phrase &quot;beam me up, Skitty,&quot; causing your death. 
 You have successfully ended the curse of Skitty.
 [[Win the Game]] </tw-passagedata><tw-passagedata pid="225" name="GROUND!" tags="" position="3468,1469" size="100,100">You throw their table and then you say, &quot;Nobody wants your autograph, phonies.&quot; The two phonies then get and, as it turns out, they had a taser, and they tase you in the butthole over, and over.
 The phonies didn&#39;t let up, your butthole was on fire.
@@ -544,7 +529,9 @@ So I&#39;ve teleported you to Venus.
 Also, the name on your shirt changes from &quot;Henry&quot; to &quot;Ray.&quot;
 Also, you die of a completely unrelated kidney illness.</tw-passagedata><tw-passagedata pid="232" name="Try on a Coffin" tags="" position="1768,1118" size="100,100">As you put on the coffin, you find that is too small. You are unable to remove the coffin before you suffocate.</tw-passagedata><tw-passagedata pid="233" name="Go to the Back of the Line" tags="" position="2124,1001" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="234" name="Enter the Room and Lock the Door behind You" tags="gramma-nazi-add-hhhere" position="2128,1110" size="100,100">As the room seals behind you, you notice something peculiar about the shape room on the fire escape plan: it is shaped like a coffin. You then realise simultaneously that this room is your coffin and what the guard meant by saying the only way you&#39;ll leave is in a coffin.
 
-</tw-passagedata><tw-passagedata pid="235" name="Request Transfer to Mars" tags="" position="2499,1038" size="100,100">You are immediately transported to Mars, and, upon your arrival, Matt Damon kills you.</tw-passagedata><tw-passagedata pid="236" name="Start with Larry" tags="" position="740,974" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="237" name="Publicly Denounce Everyone on Board" tags="" position="847,976" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="238" name="Blow up the Ship and Walk away without Looking at the Explosion" tags="" position="744,869" size="100,100">You blow up the ship, and as it is exploding, you walk away without looking.
+</tw-passagedata><tw-passagedata pid="235" name="Request Transfer to Mars" tags="" position="2499,1038" size="100,100">You are immediately transported to Mars, and, upon your arrival, Matt Damon kills you.</tw-passagedata><tw-passagedata pid="236" name="Start with Larry" tags="" position="740,974" size="100,100">I don&#39;t know how to tell you this, but Larry doesn&#39;t exist. None of this exists. You&#39;re actually in a mental ward and just stabbed your ward mate with a spoon.
+[[Confess to the stabbing]]
+[[Claim it was Suicide]]</tw-passagedata><tw-passagedata pid="237" name="Publicly Denounce Everyone on Board" tags="" position="847,976" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="238" name="Blow up the Ship and Walk away without Looking at the Explosion" tags="" position="744,869" size="100,100">You blow up the ship, and as it is exploding, you walk away without looking.
 You are a cool guy because you didn´t look at the explosion.
 Then you remember you can´t walk on water and subsequently die of hypothermia.</tw-passagedata><tw-passagedata pid="239" name="Start with Henry" tags="" position="847,869" size="100,100">You start your murder spree with Henry.
 You killed yourself. 
@@ -607,7 +594,7 @@ Who is Skitty?
 
 
 P.S. Stay tuned for the sequel
--The Farfetched News Development Team</tw-passagedata><tw-passagedata pid="272" name="What is the Average Airspeed Velocity of an Unladen Swallow" tags="" position="2530.9999999999995,294.6666666666665" size="100,100">I&#39;m afraid I can&#39;t answer that. I&#39;m too busy admiring the annual migration of the coconut.</tw-passagedata></tw-storydata>
+-The Farfetched News Development Team</tw-passagedata><tw-passagedata pid="272" name="What is the Average Airspeed Velocity of an Unladen Swallow" tags="" position="2530.9999999999995,294.6666666666665" size="100,100">I&#39;m afraid I can&#39;t answer that. I&#39;m too busy admiring the annual migration of the coconut.</tw-passagedata><tw-passagedata pid="273" name="His Good Looks" tags="" position="963.6666666666666,882.3333333333334" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="274" name="His Three-Lettered Name" tags="" position="1072,880.6666666666666" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="275" name="His Soul" tags="" position="1174.3333333333333,876.6666666666666" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="276" name="Confess to the stabbing" tags="" position="665,1124" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="277" name="Claim it was Suicide" tags="" position="815,1124" size="100,100">Double-click this passage to edit it.</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
