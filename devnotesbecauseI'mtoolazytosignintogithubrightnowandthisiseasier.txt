@@ -5,3 +5,4 @@ We should probably leave a file with the current plans for the sequel to the gam
 In general, we have a lot of style issues to fix, I will make an effort to resolve that when I get time - Zach
 Also, I'd like if we could start establishing a social media presence for the website so we can more easily spread news.
 I set up a form on the weebly site to collect emails for a newsletter so we can better alert viewers to updates. - Zach
+Just addded some horizontal lines, changed the weather into columns, and correctly tagged main content and articles - Zach
