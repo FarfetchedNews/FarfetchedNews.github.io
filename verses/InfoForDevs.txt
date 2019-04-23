@@ -1,3 +1,11 @@
 The verses document is a table of contents
 
 If someone could update the css on these to make them better, that would be great.
+
+To-do:
+
+write more.
+
+make stylish
+
+add links to next verse
