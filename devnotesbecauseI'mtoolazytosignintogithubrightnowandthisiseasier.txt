@@ -1,0 +1,5 @@
+Finish game.
+Maybe find way to automatically update the weather section like maybe something that fetches the information from a place that is easier to edit, for example.
+I still haven't checked out neocities as a potential new location.
+We should probably leave a file with the current plans for the sequel to the game as well as the "correct" paths for the current iteration.
+In general, we have a lot of style issues to fix, I will make an effort to resolve that when I get time - Zach
