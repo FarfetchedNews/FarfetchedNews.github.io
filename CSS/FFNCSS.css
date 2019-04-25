@@ -70,7 +70,12 @@ span.credits {
     background-color: white; 
 }
 
+.col {
+  display: table-cell;
+  padding: 0px;
+}
+
 .vl {
-  border-left: 6px solid black;
-  height: 50px;
+  border-left: 3px solid black;
+  height: 235px;
 }
