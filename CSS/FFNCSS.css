@@ -73,6 +73,7 @@ span.credits {
 .col {
   display: table-cell;
   padding: 0px;
+  width: 140px;
 }
 
 .vl {
