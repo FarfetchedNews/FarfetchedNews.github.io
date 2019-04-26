@@ -80,3 +80,15 @@ span.credits {
   border-left: 3px solid black;
   height: 235px;
 }
+
+.vl2 {
+  border-left: 3px solid black;
+  height: 235px;
+}
+
+.col2 {
+  display: table-cell;
+  padding: 0px;
+  height: 235px;
+  width: 140px;
+}
