@@ -86,6 +86,11 @@ span.credits {
   height: 430px;
 }
 
+.vl3 {
+  border-left: 3px solid black;
+  height: 315px;
+}
+
 .col2 {
   display: table-cell;
   padding: 0px;
