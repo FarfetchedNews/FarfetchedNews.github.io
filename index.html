@@ -30,6 +30,14 @@
 	    and (max-device-width : 480px){ 
 	      .mobileShow {display: inline;}
 	  }
+	  .mobileHide { display: inline; } 
+	
+	  /* Smartphone Portrait and Landscape */ 
+	  @media only screen 
+	    and (min-device-width : 320px) 
+	    and (max-device-width : 480px){ 
+	     .mobileHide { display: none;}
+	  }
 	</style>
 
 </head>
@@ -190,7 +198,7 @@
 	<h3 align="center">Of the Month</h3>
 	
 	<hr>
-	<div id="content-desktop">
+	<div class="mobileHide">
 	<div class="col-container">
 		<div class="col" style="background:white">
 			<div style="width: 100%; display: table;">
