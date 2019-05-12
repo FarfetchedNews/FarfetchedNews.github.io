@@ -9,3 +9,5 @@ Just addded some horizontal lines, changed the weather into columns, and correct
 Note: I did not tag the main content and articles on the Verses - Zach
 Just added footers to the main pages - Zach
 Implemented Cryptomining
+so i just looked at this and it starts as a to-do list and then is not. sorry for any confusion- Zach
+I foound this neat website web.dev basically it runs a check of our website automatically and give tips on how to improve it
