@@ -2,3 +2,6 @@ ErrorDocument 404 /404.html
 <FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|swf)$">
 Header set Cache-Control "max-age=31536000, public"
 </FilesMatch>
+<FilesMatch "\.(|css|)$">
+Header set Cache-Control "no-cache, public"
+</FilesMatch>
