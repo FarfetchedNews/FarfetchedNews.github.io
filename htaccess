@@ -5,3 +5,6 @@ Header set Cache-Control "max-age=31536000, public"
 <FilesMatch "\.(|css|)$">
 Header set Cache-Control "no-cache, public"
 </FilesMatch>
+RewriteEngine on
+RewriteCond %{HTTPS} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
