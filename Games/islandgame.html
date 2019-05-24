@@ -35,7 +35,9 @@
 
 
 
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">
+
 </script><tw-passagedata pid="1" name="Day 1" tags="" position="0,0" size="100,100">You see an oceanic tornado in the distance. (I said oceanic tornado, not hurricane, deal with it). What type of boat are you in?
 (if: $testVar is 0)[ (set: $milSub to false)(set: $cruShi to false)(set: $carShi to false)(set: $cheBoa to false)(set: $shiBot to false)(set: $testVar to false)]
 (if: $milSub is false)[ [[Military Submarine]] ]
@@ -148,8 +150,8 @@ It is at this moment that you get up and say in a very anticlimactic manner, &qu
 [[Eat Skittles]]</tw-passagedata><tw-passagedata pid="34" name="Investigate Area CB" tags="" position="2750,2225" size="100,100">As you investigate the area, you see a room labeled &quot;SCP 173.&quot;
 You decide to enter the room. 
 A small amount of dust gets in your eye.
-You blink.
-You are dead now.</tw-passagedata><tw-passagedata pid="35" name="Eat Skittles" tags="" position="2875,2225" size="100,100">The Skittles move away from you as you try to reach for them, this gives you the urge to yell “beam me up, skitty.” However, you resist this urge. Now what?
+[[Blink]]
+[[Don&#39;t Blink]]</tw-passagedata><tw-passagedata pid="35" name="Eat Skittles" tags="" position="2875,2225" size="100,100">The Skittles move away from you as you try to reach for them, this gives you the urge to yell “beam me up, skitty.” However, you resist this urge. Now what?
 [[Beam me up Skitty]] 
 [[Investigate area-&gt;Investigate Area CB]] 
 [[Ignore Skittles]]
@@ -923,7 +925,23 @@ You die in debtor&#39;s prison.</tw-passagedata><tw-passagedata pid="360" name="
 Then a gate to Oblivion opens on top of you and you die.</tw-passagedata><tw-passagedata pid="361" name="Play Games on your Chromebook" tags="" position="4225,1600" size="100,100">You get blocksi nuked.</tw-passagedata><tw-passagedata pid="362" name="Get Fourth Place" tags="" position="4325,1600" size="100,100">You confidently land in fourth place.
 You are shamed out of the profession and lose your job.
 You become a homeless nobody and are quickly lost to the sands of time.</tw-passagedata><tw-passagedata pid="363" name="Let them Win" tags="" position="4425,2100" size="100,100">They are happy that you let them win, and share their prize with you.
-You eventually develop a friendship with them and retire as friends.</tw-passagedata><tw-passagedata pid="364" name="Hit them with the Whip and Nae Nae" tags="" position="4425,2300" size="100,100">You quickly realise that it would take more than a simple whip and nae nae to defeat your opponent, so you come up with your own dance. You become a popular internet meme for three days before dying.</tw-passagedata><tw-passagedata pid="365" name="Talk about the Bullymongs" tags="" position="4425,2500" size="100,100">A bullymong named knuckledragger comes up and takes out your eye, leaving you dead.</tw-passagedata></tw-storydata>
+You eventually develop a friendship with them and retire as friends.</tw-passagedata><tw-passagedata pid="364" name="Hit them with the Whip and Nae Nae" tags="" position="4425,2300" size="100,100">You quickly realise that it would take more than a simple whip and nae nae to defeat your opponent, so you come up with your own dance. You become a popular internet meme for three days before dying.</tw-passagedata><tw-passagedata pid="365" name="Talk about the Bullymongs" tags="" position="4425,2500" size="100,100">A bullymong named knuckledragger comes up and takes out your eye, leaving you dead.</tw-passagedata><tw-passagedata pid="366" name="Blink" tags="" position="2800,2350" size="100,100">You are killed by SCP-173.
+Try not blinking next time.</tw-passagedata><tw-passagedata pid="367" name="Don&#39;t Blink" tags="" position="2700,2350" size="100,100">You don&#39;t blink and slowly back away.
+You have escaped SCP-173.
+[[Go Back and Blink -&gt; Blink]] 
+[[Look for Shelter]]</tw-passagedata><tw-passagedata pid="368" name=" Blink" tags="" position="2650,2475" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="369" name="Look for Shelter" tags="" position="2750,2475" size="100,100">You found a neat little cave that you make into a nice home.
+When you&#39;re exploring the depths of the cave a radioactive and magic alien crab pinches you on the brain by entering through your ear.
+You feel your sense crawling on your back, something was warning you that a shark was about to come flying at you.
+You easily catch it, detecting the danger ahead of time.
+You&#39;ve no idea how you were able to detect the incoming shark, but you&#39;re impressed. You&#39;ve a feeling that this new ability has something to do with your recent injury from a crab.
+You put down the shark(in your pool, you didn&#39;t kill it) and keep it as a pet.
+Senses say:
+shark is not ready
+dangerous to teach a shark
+when just met it is
+[[Teach your Shark a Trick]]
+[[Perform a Geological Survey of the Area]]
+[[Become a Vigilante]]</tw-passagedata><tw-passagedata pid="370" name="Teach your Shark a Trick" tags="" position="2650,2625" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="371" name="Perform a Geological Survey of the Area" tags="" position="2750,2625" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="372" name="Become a Vigilante" tags="" position="2850,2625" size="100,100">Double-click this passage to edit it.</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
