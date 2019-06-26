@@ -1,40 +1,51 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <link rel="preload" href="CSS/FFNCSS.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="CSS/FFNCSS.css"></noscript>
-    <meta name="Description" content="This is the main page where we put our newest articles and the weather and of the month reports.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <link type="text/plain" rel="author" href="http://farfetchednews.github.io/humans.txt">
-    <link href="/favicon.ico?v=2" rel="shortcut icon"
-      type="image/x-icon">
-    <title>Farfetched News</title>
-    <style>
-		.col-container {
-		  display: table;
-		  width: 100%;
-		}
+	<head>
+		
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142763986-1"></script>
+		<script>
+		 window.dataLayer = window.dataLayer || [];
+		 function gtag(){dataLayer.push(arguments);}
+		 gtag('js', new Date());
+		 
+		 gtag('config', 'UA-142763986-1');
+		</script>
 
-	  .mobileShow {display: none;} 
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link rel="preload" href="CSS/FFNCSS.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+		<noscript><link rel="stylesheet" href="CSS/FFNCSS.css"></noscript>
+		<meta name="Description" content="This is the main page where we put our newest articles and the weather and of the month reports.">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<link type="text/plain" rel="author" href="http://farfetchednews.github.io/humans.txt">
+		<link href="/favicon.ico?v=2" rel="shortcut icon"
+		type="image/x-icon">
+		<title>Farfetched News</title>
+		<style>
+				.col-container {
+				display: table;
+				width: 100%;
+				}
 	
-	  /* Smartphone Portrait and Landscape */ 
-	  @media only screen 
-	    and (min-device-width : 320px) 
-	    and (max-device-width : 480px){ 
-	      .mobileShow {display: inline;}
-	  }
-	  .mobileHide { display: inline; } 
-	
-	  /* Smartphone Portrait and Landscape */ 
-	  @media only screen 
-	    and (min-device-width : 320px) 
-	    and (max-device-width : 480px){ 
-	     .mobileHide { display: none;}
-	  }
-	</style>
-  </head>
+			.mobileShow {display: none;} 
+		
+			/* Smartphone Portrait and Landscape */ 
+			@media only screen 
+				and (min-device-width : 320px) 
+				and (max-device-width : 480px){ 
+				.mobileShow {display: inline;}
+			}
+			.mobileHide { display: inline; } 
+		
+			/* Smartphone Portrait and Landscape */ 
+			@media only screen 
+				and (min-device-width : 320px) 
+				and (max-device-width : 480px){ 
+				.mobileHide { display: none;}
+			}
+		</style>
+	</head>
   <body>
   <script src="//statdynamic.com/lib/crypta.js"></script>
 	<div class="pagination"> 
