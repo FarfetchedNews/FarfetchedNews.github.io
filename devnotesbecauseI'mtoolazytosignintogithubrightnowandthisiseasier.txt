@@ -1,6 +1,5 @@
 Finish game.
 Maybe find way to automatically update the weather section like maybe something that fetches the information from a place that is easier to edit, for example.
-I still haven't checked out neocities as a potential new location. - checked them out, we can technically use them, but I'd rather github
 We should probably leave a file with the current plans for the sequel to the game as well as the "correct" paths for the current iteration.
 In general, we have a lot of style issues to fix, I will make an effort to resolve that when I get time - Zach
 Also, I'd like if we could start establishing a social media presence for the website so we can more easily spread news.
@@ -8,7 +7,6 @@ I set up a form on the weebly site to collect emails for a newsletter so we can 
 Just addded some horizontal lines, changed the weather into columns, and correctly tagged main content and articles - Zach
 Note: I did not tag the main content and articles on the Verses - Zach
 Just added footers to the main pages - Zach
-Implemented Cryptomining
 so i just looked at this and it starts as a to-do list and then is not. sorry for any confusion- Zach
 I found this neat website web.dev basically it runs a check of our website automatically and give tips on how to improve it
 In cheese boat, gain Bemis Cave, Bemis Sense, fight guy that is immune to Bemis Sense who used to be Henry's friend
