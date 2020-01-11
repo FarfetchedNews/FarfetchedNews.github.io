@@ -59,14 +59,14 @@ text-align: left;
 
 
 span.credits {
-    display: inline-block;
+    display:inline-block;
     vertical-align:top;
     text-align: center;
     width: 140px;
     height: 280px;
     padding: 15px;
     margin:5px 5px 5px 5px;
-    border: 3px solid green;        
+    border: 3px green;        
     background-color: white; 
 }
 
@@ -157,16 +157,3 @@ span.credits {
 
 #content-desktop {display: none;}
 #content-mobile {display: block;}
-
-@font-face {
-    font-family: dimock;
-    src: url("farfetchednews.github.io/CSS/Dimock.otf") format("opentype");
-}
-
-}
-
-div {
-  font-family: dimock;
-}
-
-}
