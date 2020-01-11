@@ -158,4 +158,13 @@ span.credits {
 #content-desktop {display: none;}
 #content-mobile {display: block;}
 
+@font-face {
+  font-family: dimock;
+  src: url(farfetchednews.github.io/dimock.otf);
+}
+
+div {
+  font-family: dimock;
+}
+
 }
