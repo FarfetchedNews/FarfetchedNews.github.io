@@ -159,8 +159,10 @@ span.credits {
 #content-mobile {display: block;}
 
 @font-face {
-  font-family: dimock;
-  src: url(Dimock.otf);
+    font-family: dimock;
+    src: url("Dimock.otf") format("opentype");
+}
+
 }
 
 div {
