@@ -1,3 +1,11 @@
+@font-face {
+	font-family: "dimock";
+	src: 
+		url("/Fonts/Dimock.otf") format("opentype"),
+		url("/Fonts/dimock.woff2") format("woff2"),
+		url("/Fonts/dimock.woff") format("woff");
+}
+
 body{
 font-family: "dimock";
 margin:10px 100px 0px 100px;
