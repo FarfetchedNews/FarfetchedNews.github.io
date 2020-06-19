@@ -4,5 +4,4 @@ d3.tsv("/Scripts/selectedweather.tsv", function(data) {
 	
 });
 
-var element = document.getElementById("test");
-element.textContent = test;
+document.getElementById("test").textContent = test;
