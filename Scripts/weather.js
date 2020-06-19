@@ -5,5 +5,5 @@ d3.tsv("/Scripts/selectedweather.tsv", function(data) {
 });
 
 document.getElementById("test").textContent = d3.tsv("/Scripts/selectedweather.tsv", function(data) {
-	return (data)
+	return (data).then
 });
