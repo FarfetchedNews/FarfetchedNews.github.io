@@ -50,6 +50,17 @@
 		<script src="https://d3js.org/d3-dsv.v1.min.js"></script>
 		<script src="https://d3js.org/d3-fetch.v1.min.js"></script>
 		
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script src="https://www.googletagmanager.com/gtag/js?id=UA-142763986-1" async></script>
+			
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+	 
+			gtag('config', 'UA-142763986-1');
+		</script>
+		
 	</head>
 	<body>
 	<p id="test"></p>
@@ -293,23 +304,12 @@
 <SCRIPT>sunday = d3.tsv("https://farfetchednews.github.io/Scripts/selectedweather.tsv",[1]);
 console.log(d3.tsv("https://farfetchednews.github.io/Scripts/selectedweather.tsv",[1]));
 var element = document.getElementById("test");
-element.textContent = sunday; promise.all();</script>
+element.textContent = sunday;</script>
 
 		<footer>
 			<div height:="" 2px;="" width:="" 5%;=""style="width:30px;height:30px; float:right; opacity:0.1;">
 				<a href="/2"> <picture> <source srcset="/Images/pi.webp" height:="2px" width:="5%"> <img alt="pi symbol" src="/Images/pi.jpg" height:="2px" ;="" width:="5%"></picture></a>
 			</div>
-			<!-- Global site tag (gtag.js) - Google Analytics -->
-			<script src="https://www.googletagmanager.com/gtag/js?id=UA-142763986-1" async></script>
-			
-			<script>
-				window.dataLayer = window.dataLayer || [];
-				function gtag(){dataLayer.push(arguments);}
-				gtag('js', new Date());
-		 
-				gtag('config', 'UA-142763986-1');
-			</script>
-			
 		</footer>
 	</body>
 </html>
