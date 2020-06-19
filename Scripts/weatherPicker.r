@@ -8,12 +8,9 @@ read.table(file = 'weather.tsv', sep = '\t', row.names = 1, header = TRUE) -> we
 
 sample_n(weatherTable, 7) -> randomisedWeather
 
-randomisedWeather <- cbind(Row.Names = rownames(randomisedWeather), randomisedWeather)
-rownames(randomisedWeather) <- NULL
+randomisedWeather <- cbind(temp = rownames(randomisedWeather), randomisedWeather)
+rownames(randomisedWeather) <- c()
 
-colnames(randomisedWeather)[1] -> temp
-colnames(randomisedWeather)[2] -> text
+print(randomisedWeather[2])
 
-print(randomisedWeather)
-
-write.table (randomisedWeather, file = "selectedweather.tsv", sep = '\t', quote = FALSE, na = "MISSING VALUE")
+write.table (randomisedWeather, file = "selectedweather.tsv", sep = '\t', quote = FALSE, na = "MISSING VALUE", row.names = FALSE)
