@@ -5,6 +5,7 @@ d3.tsvParseRows("/Scripts/selectedweather.tsv", function(data) {
     d.temp = +d.temp;
     test = toString(d.Text);
 	})
+	console.log(data);
 });
 
 document.getElementById("test").textContent = test;
