@@ -1,4 +1,4 @@
-d3.tsv(/Scripts/selectedweather.tsv, function(data) {
+d3.tsv("/Scripts/selectedweather.tsv", function(data) {
 	console.log(data);
 	test = data[0];
 });
