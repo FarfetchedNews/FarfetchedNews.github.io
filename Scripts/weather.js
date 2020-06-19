@@ -1,9 +1,9 @@
 var test;
 
-d3.tsv("/Scripts/selectedweather.tsv", function(data) {
-	console.log(data[0]);
-	test = data[0];
-	
+d3.tsvParseRows("/Scripts/selectedweather.tsv", function(data) {
+		data.forEach(function(d)) {
+			d.temp = +d.temp
+			
 });
 
 document.getElementById("test").textContent = test;
