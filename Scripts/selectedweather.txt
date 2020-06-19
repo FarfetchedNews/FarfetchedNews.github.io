@@ -1,8 +1,8 @@
 Temperature	Other.Details
-1	61°	2% chance that this forecast is entirely inaccurate
-2	67.0000001°	50% chance you have euphobia.
-3	3°	1% chance that people actually care about this section
-4	56°	78% chance of spontaneous combustion due to a death stare from an eighth grade teacher
-5	11°	38% chance that bananas are blue
-6	78°	60% chance that [DATA EXPUNGED].
-7	87°	55% chance Mr. Dimock will say ice cream!
+1	61Â°	2% chance that this forecast is entirely inaccurate
+2	67.0000001Â°	50% chance you have euphobia.
+3	3Â°	1% chance that people actually care about this section
+4	56Â°	78% chance of spontaneous combustion due to a death stare from an eighth grade teacher
+5	11Â°	38% chance that bananas are blue
+6	78Â°	60% chance that [DATA EXPUNGED].
+7	87Â°	55% chance Mr. Dimock will say ice cream!
