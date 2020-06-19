@@ -2,7 +2,7 @@
 
 library(dplyr)
 
-# Weather stuffs ----------------------------------------------------------
+# body ----------------------------------------------------------
 
 read.table(file = 'weather.tsv', sep = '\t', row.names = 1, header = TRUE) -> weatherTable
 
