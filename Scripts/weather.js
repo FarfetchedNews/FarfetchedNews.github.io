@@ -1,5 +1,6 @@
 var xhttp = new XMLHttpRequest();
 var test;
+let arrayWithValues = new Array(16);
 
 xhttp.onreadystatechange = function() {
         if (xhttp.readyState == 4 && xhttp.status == 200) {
