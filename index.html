@@ -45,26 +45,18 @@
 		
 		<link href="/favicon.ico?v=2" rel="shortcut icon" type="image/x-icon">
 		
-		<!-- Used for reading tsv file in js -->
-		<script src="https://d3js.org/d3-dsv.v1.min.js" async></script>
-		<script src="https://d3js.org/d3-fetch.v1.min.js" async></script>
-		
-		<!-- Loads and uses the tsvs to write in the weater -->
-		<script src="/Scripts/weather.js"> </script?>
-		
 		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script src="https://www.googletagmanager.com/gtag/js?id=UA-142763986-1" async></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142763986-1"></script>
 		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
+		 window.dataLayer = window.dataLayer || [];
+		 function gtag(){dataLayer.push(arguments);}
+		 gtag('js', new Date());
 		 
-			gtag('config', 'UA-142763986-1');
+		 gtag('config', 'UA-142763986-1');
 		</script>
-
+		<!-- End Google Analytics --> 
 	</head>
-	<body>
-		<p id="test">blah</p>
+  <body>
 	<div class="pagination"> 
 		<a href="" class="active" style="color:black">Home</a>
 		<!--<a href="polls.html" style="color:blue">Polls</a>--> 
