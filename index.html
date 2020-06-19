@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 	<head>
+		
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
@@ -45,18 +46,14 @@
 		
 		<link href="/favicon.ico?v=2" rel="shortcut icon" type="image/x-icon">
 		
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142763986-1"></script>
-		<script>
-		 window.dataLayer = window.dataLayer || [];
-		 function gtag(){dataLayer.push(arguments);}
-		 gtag('js', new Date());
-		 
-		 gtag('config', 'UA-142763986-1');
-		</script>
-		<!-- End Google Analytics --> 
+		<!-- used for reading tsv file -->
+		<script src="https://d3js.org/d3-dsv.v1.min.js"></script>
+		<script src="https://d3js.org/d3-fetch.v1.min.js"></script>
+		
 	</head>
-  <body>
+	<body>
+	<p id="test"></p>
+	
 	<div class="pagination"> 
 		<a href="" class="active" style="color:black">Home</a>
 		<!--<a href="polls.html" style="color:blue">Polls</a>--> 
@@ -289,22 +286,25 @@
         </article>
         <hr>
     </main>
-    <!--			
-	<script>
 
-		window.onbeforeunload = function() {
-		  return "There is no other site better than Farfetched News! Are you insane?";
-		};
+			<!-- updates the weather section from tsv file -->
+			<script src="/Scripts/weather.js"></script>
+			
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+			<script src="https://www.googletagmanager.com/gtag/js?id=UA-142763986-1" async></script>
+			<script>
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+		 
+				gtag('config', 'UA-142763986-1');
+			</script>
 
-	</script>
-//-->
-    <footer>
-      <div height:="" 2px;="" width:="" 5%;=""
-        style="width:30px;height:30px; float:right; opacity:0.1;"> <a
-          href="/2"> <picture> <source srcset="/Images/pi.webp"
-              height:="2px" width:="5%"> <img alt="pi symbol"
-              src="/Images/pi.jpg" height:="2px" ;="" width:="5%"></picture></a>
-      </div>
-    </footer>
-  </body>
+		<footer>
+			<div height:="" 2px;="" width:="" 5%;=""style="width:30px;height:30px; float:right; opacity:0.1;">
+				<a href="/2"> <picture> <source srcset="/Images/pi.webp" height:="2px" width:="5%"> <img alt="pi symbol" src="/Images/pi.jpg" height:="2px" ;="" width:="5%"></picture></a>
+			</div>
+
+		</footer>
+	</body>
 </html>
