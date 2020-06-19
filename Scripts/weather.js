@@ -2,11 +2,7 @@ var files = ["/Scripts/selectedweather.tsv"]; //Have no idea if this is necessar
 
 var promises = []; //stackoverflow says to do this
 
-//Stackoverflow said to write in the following two functions
-files.forEach(function(url) {
-    promises.push(d3.json(url))
-});
-
+//Stackoverflow said to write this too
 Promise.all(promises).then(function(values) {
     console.log(values)
 });
