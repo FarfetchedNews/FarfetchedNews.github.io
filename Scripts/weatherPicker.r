@@ -10,4 +10,4 @@ sample_n(weatherTable, 7) -> randomisedWeather
 
 print(randomisedWeather)
 
-write.csv (randomisedWeather, file = "selectedweather.csv", quote = FALSE, na = "MISSING VALUE")
+write.table (randomisedWeather, file = "selectedweather.tsv", quote = FALSE, sep = '\t', na = "MISSING VALUE")
