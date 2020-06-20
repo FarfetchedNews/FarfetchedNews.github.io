@@ -4,7 +4,7 @@ library(dplyr)
 
 # books --------------------------------------------------------------------
 
-read.table(file = '/Databases/books.tsv', sep = '\t', row.names = 1, header = TRUE) -> booksTable
+read.table(file = './Databases/books.tsv', sep = '\t', row.names = 1, header = TRUE) -> booksTable
 
 sample_n(booksTable, 1) -> selectedBook
 

@@ -4,7 +4,7 @@ library(dplyr)
 
 # body ----------------------------------------------------------
 
-read.table(file = '/Databases/weather.tsv', sep = '\t', row.names = 1, header = TRUE) -> weatherTable
+read.table(file = './databases/weather.tsv', sep = '\t', row.names = 1, header = TRUE) -> weatherTable
 
 sample_n(weatherTable, 7) -> randomisedWeather
 
