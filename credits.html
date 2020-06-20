@@ -2,7 +2,6 @@
 <html lang="en-US">
 
 <head>
-
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
@@ -25,99 +24,49 @@
 	 
 		gtag('config', 'UA-142763986-1');
 	</script>
-
 </head>
 
 <body>
+<div class="right">
+<div class="pagination">
+	<a href="index.html">Home</a>
+	<a href="/Games/islandgame.html">Game</a>
+	<a href="archive.html">Archive</a>
+	<a href="credits.html" class="active" style="color:blue">Credits</a>
+	<a href="https://discord.gg/zNVPdtU">Discord Server</a>
+</div>
+</div>
+<main>
 
-	<div class="right">
-		
-	<div class="pagination">
-	
-		<a href="index.html">Home</a>
-		
-  		<!--<a href="polls.html">Polls</a>-->
-		
-  		<a href="/Games/islandgame.html">Game</a>
-		
-  		<!--<a href="election.html">Election</a>-->
-		
-  		<a href="archive.html">Archive</a>
-		
-  		<a href="credits.html" class="active" style="color:blue">Credits</a>
-
-		<a href="https://discord.gg/zNVPdtU">Discord Server</a>
-		
-	</div>
-		
-	</div>
-	
-	<!-- <main> -->
-	
-	<h1>Meet Our Team</h1>
-	
+<h1>Meet Our Team</h1>
 	<h3>This text is to help our site-visitors with pressing questions.</h3>
-	
-	<!-- <div class="center"> -->
-		
-	<span class="credits">
-		
-	<p><b>Zach</b><br> Chief Executive Managerial Director of People Named Zach, and one on three developers of the game, and Chief Executive Officer of the Department of People Named Zach</p>
-		
-	</span>
-	
-	
-	<span class="credits">
-		
-	<p><b>Miles</b><br> No idea who he is. Probably works here.</p>
 
-	</span>
-		
-	
+<div class="center"> 
 	<span class="credits">
-		
-	<p><b>Robert</b><br> His past is a mystery. We think he may have been an assassin. Or maybe a spy. Or a wizard. We'ren't sure.</p>
+		<p><b>Zach</b><br> Chief Executive Managerial Director of People Named Zach, and one on three developers of the game, and Chief Executive Officer of the Department of People Named Zach</p></span>
 
-	</span>
-		
-			
 	<span class="credits">
-		
-	<p><b>Ethan</b><br> Chief Artist</p>
-		
-	</span>	
-		
-		
+		<p><b>Miles</b><br> No idea who he is. Probably works here.</p></span>
+
 	<span class="credits">
-		
-	<p><b>Gamer(dude146)</b><br> He has a youtube channel.</p>
+		<p><b>Robert</b><br> His past is a mystery. We think he may have been an assassin. Or maybe a spy. Or a wizard. We'ren't sure.</p></span>
 
-	</span>
-		               
-			
 	<span class="credits">
-		
-	<p><b>Aidan The First(in this list)</b><br> God of all things relating to Tetris. What would you call that?</p>
+		<p><b>Ethan</b><br> Chief Artist</p></span>	
 
-	</span>
-	
-		
 	<span class="credits">
-		
-	<p><b>Caleb</b><br> FORMERLY FORMERLY APPARENTLY DOES THINGS.</p>
+		<p><b>Gamer(dude146)</b><br> He has a youtube channel.</p></span>
 
-	</span>
+	<span class="credits">
+		<p><b>Aidan The First(in this list)</b><br> God of all things relating to Tetris. What would you call that?</p></span>
 
-	
+	<span class="credits">
+		<p><b>Caleb</b><br> FORMERLY FORMERLY APPARENTLY DOES THINGS.</p></span>
+
 	<span class='credits'>
-		
-	<p><b>General Perkins</b><br> Creator* of the world's** leading insurance company*** and famous leader**** of several armies*****</p>
-
-	</span>
-	
-	<!-- </div> -->
-	
-	<!-- </main> -->
+		<p><b>General Perkins</b><br> Creator* of the world's** leading insurance company*** and famous leader**** of several armies*****</p></span>
+</div> 
+</main>
 
 <p id="CredTimer"></p>
 <p id="message1"></p>
@@ -127,62 +76,57 @@
 <p id="message5"></p>	
 	
 <script>
-// Set the date we're counting down to
-var webtime = new Date().getTime();
-// Update the count down every 1 second
-var x = setInterval(function() {
+	// Set the date we're counting down to
+	var webtime = new Date().getTime();
+	// Update the count down every 1 second
+	var x = setInterval(function() {
+
+
+	// Get todays date and time
+	var now = new Date().getTime();
+
+	// Find the distance between now and the count down date
+	var distance = now - webtime;
+
+	// Time calculations for days, hours, minutes and seconds
+	var days = Math.floor(distance/(1000*60*60*24));
+	var hours = Math.floor((distance%(1000*60*60*24))/(1000*60*60));
+	var minutes = Math.floor((distance%(1000*60*60))/(1000*60));
+	var seconds = Math.floor((distance%(1000*60))/1000);
 	
-
-    // Get todays date and time
-    var now = new Date().getTime();
-    
-    // Find the distance between now and the count down date
-    var distance = now - webtime;
-    
-    // Time calculations for days, hours, minutes and seconds
-    var days = Math.floor(distance/(1000*60*60*24));
-    var hours = Math.floor((distance%(1000*60*60*24))/(1000*60*60));
-    var minutes = Math.floor((distance%(1000*60*60))/(1000*60));
-    var seconds = Math.floor((distance%(1000*60))/1000);
-    
-    // Output the result in an element with id="demo"
-    document.getElementById("CredTimer").innerHTML = "You have been appreciating people for: <br>" +days+" days <br>"+hours+" hours <br>"+minutes+" minutes <br>"+seconds+" seconds ";
-    
-    // If the count down is over, write some text 
-    //  1000 times seconds you wish to wait
-    if (distance > 900000) {
-        document.getElementById("message1").innerHTML = ".... . .-.. .-.. --- / - .... . .-. .";
-    }
-    if (distance > 3600000) {
-        document.getElementById("message2").innerHTML = "This is a message";
-    }
-    if (distance > 10800000) {
-        document.getElementById("message3").innerHTML = "This might be a message";
-    }
-    if (distance > 86400000) {
-        document.getElementById("message4").innerHTML = "Who am I?";
-    }
-    if (distance > 604800000) {
-        document.getElementById("message5").innerHTML = "Wow";
-    }
+	// Output the result in an element with id="demo"
+	document.getElementById("CredTimer").innerHTML = "You have been appreciating people for: <br>" +days+" days <br>"+hours+" hours <br>"+minutes+" minutes <br>"+seconds+" seconds ";
+	
+	// If the count down is over, write some text 
+	//  1000 times seconds you wish to wait
+	if (distance > 900000) {
+		document.getElementById("message1").innerHTML = ".... . .-.. .-.. --- / - .... . .-. .";
+	}
+	if (distance > 3600000) {
+		document.getElementById("message2").innerHTML = "This is a message";
+	}
+	if (distance > 10800000) {
+		document.getElementById("message3").innerHTML = "This might be a message";
+	}
+	if (distance > 86400000) {
+		document.getElementById("message4").innerHTML = "Who am I?";
+	}
+	if (distance > 604800000) {
+		document.getElementById("message5").innerHTML = "Wow";
+	}
 }, 1000);
-
 </script>
 
-	<small>
-		<br>* Owner
-		<br>** Pluto&#x2020;
-		<br>*** Measured on the scale of Farfetchedness
-		<br>**** May be subjective
-		<br>***** Of at least 0 people
-		<br>&#x2020; May or may not be a planet 
-	</small>
+<small>
+	<br>* Owner
+	<br>** Pluto&#x2020;
+	<br>*** Measured on the scale of Farfetchedness
+	<br>**** May be subjective
+	<br>***** Of at least 0 people
+	<br>&#x2020; May or may not be a planet 
+</small>
 
-	<footer>
-		<p>
-		
-		</p>
-	</footer>
+<footer>
+</footer>
 </body>
-
 </html>
