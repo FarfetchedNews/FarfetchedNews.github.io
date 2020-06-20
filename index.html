@@ -1,302 +1,251 @@
 <!DOCTYPE html>
 <html lang="en-US">
-	<head>
-		
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		
-		<title>Farfetched News</title>
-		<meta name="Description" content="This is the main page where we put our newest articles, the weather and of the month report.">
-		<meta name="keywords" content="">
-		<link type="text/plain" rel="author" href="humans.txt">
-		
-		<meta name="robots" content="index, follow">
-		<meta name="mobile-web-app-capable" content="yes">
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<meta name="apple-mobile-web-app-status-bar-style" content="default">
-		
-		<link rel="stylesheet" href="CSS/FFNCSS.css" type="text/css">
-		<noscript><link rel="stylesheet" href="CSS/FFNCSS.css"></noscript>
-		
-		<style>
-		
-			col-container {
-				display: table;
-				width: 100%;
-			}
+
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Farfetched News</title>
+	<meta name="Description" content="This is the main page where we put our newest articles, the weather and of the month report.">
+	<meta name="keywords" content="">
+	<link type="text/plain" rel="author" href="humans.txt">
+
+	<meta name="robots" content="index, follow">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+	<link rel="stylesheet" href="CSS/FFNCSS.css" type="text/css">
+	<noscript><link rel="stylesheet" href="CSS/FFNCSS.css"></noscript>
+
+	<style>
+
+		col-container {
+			display: table;
+			width: 100%;
+		}
+
+		.mobileShow {display: none;} 
+
+		/* Smartphone Portrait and Landscape */ 
+		@media only screen 
+			and (min-device-width : 320px) 
+			and (max-device-width : 480px){ 
+			.mobileShow {display: inline;}
+		}
+		.mobileHide { display: inline; } 
+
+		/* Smartphone Portrait and Landscape */ 
+		@media only screen 
+			and (min-device-width : 320px) 
+			and (max-device-width : 480px){ 
+			.mobileHide { display: none;}
+		}
+
+	</style>
+
+	<link href="/favicon.ico?v=2" rel="shortcut icon" type="image/x-icon">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script src="https://www.googletagmanager.com/gtag/js?id=UA-142763986-1" async></script>
 	
-			.mobileShow {display: none;} 
-		
-			/* Smartphone Portrait and Landscape */ 
-			@media only screen 
-				and (min-device-width : 320px) 
-				and (max-device-width : 480px){ 
-				.mobileShow {display: inline;}
-			}
-			.mobileHide { display: inline; } 
-		
-			/* Smartphone Portrait and Landscape */ 
-			@media only screen 
-				and (min-device-width : 320px) 
-				and (max-device-width : 480px){ 
-				.mobileHide { display: none;}
-			}
-			
-		</style>
-		
-		<link href="/favicon.ico?v=2" rel="shortcut icon" type="image/x-icon">
-		
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script src="https://www.googletagmanager.com/gtag/js?id=UA-142763986-1" async></script>
-			
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-	 
-			gtag('config', 'UA-142763986-1');
-		</script>
-		
-	</head>
-	<body>
-	
-	<div class="pagination"> 
-		<a href="" class="active" style="color:black">Home</a>
-		<!--<a href="polls.html" style="color:blue">Polls</a>--> 
-		<a  href="/Games/islandgame.html" style="color:blue">Game</a>
-		<!--<a href="election.html" style="color:blue">Election</a>--> 
-		<a href="archive.html" style="color:blue">Archive</a> 
-		<a href="credits.html" style="color:blue">Credits</a> 
-		<a href="https://discord.gg/zNVPdtU" style="color:blue">Discord Server</a> 
-	</div>
-    <div class="center">
-      <h1 align="center">Welcome to Farfetched News</h1>
-      <hr> </div>
-    <main>
-       <article>
-       <p> 
-			If you look at Farfetched News often, you may have noticed that we have not been posting articles as often as we were when we had just started the paper. We at Farfetched News would like you, as the viewer, to know that this is not because we are lazy. It certainly isn’t because we are procrastinating (why would we be procrastinating now, when we could be procrastinating later). The truth is that we really like deadlines. We especially like the noise they make when they fly by. It sounds kind of like a whoosh sound, but with a little bit of a whistle at the end of it. 
-		</p>
-       </article>
-        <hr>
-	<article> 
-			<h2 align="center">Weather</h2>
-			<hr>
-			<div class="mobileHide">
-            <div style="width: 100%; display: table;">
-                <div style="display: table-row">
-                <div style="display: table-cell;">
-                    <table width="100%" cellspacing="2" cellpadding="2"
-                      border="1">
-						<tbody>
-                        <tr>
-                          <td valign="top" align="center">
-                            <h3>Sun</h3>
-                          </td>
-                          <td valign="top" align="center">
-                            <h3>Mon</h3>
-                          </td>
-                          <td valign="top" align="center">
-                            <h3>Tue<br></h3>
-                          </td>
-                          <td valign="top" align="center">
-                            <h3>Wed<br></h3>
-                          </td>
-                          <td valign="top" align="center">
-                            <h3>Thu<br></h3>
-                          </td>
-                          <td valign="top" align="center">
-                            <h3>Fri<br></h3>
-                          </td>
-                          <td valign="top" align="center">
-                            <h3>Sat<br></h3>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td width="14%" valign="top" align="center">
-                            <p id="suntemp">69°</p>
-                          </td>
-                          <td width="14%" valign="top" align="center">
-                            <p id="montemp">75°</p>
-                          </td>
-                          <td width="14%" valign="top" align="center">
-                            <p id="tuetemp">86.7°</p>
-                          </td>
-                          <td width="14%" valign="top" align="center">
-                            <p id="wedtemp">87°</p>
-                          </td>
-                          <td width="14%" valign="top" align="center">
-                            <p id="thutemp">67.0000001°</p>
-                            <p> </p>
-                          </td>
-                          <td width="14%" valign="top" align="center">
-                            <p id="fritemp">78°</p>
-                          </td>
-                          <td width="14%" valign="top" align="center">
-                            <p id="sattemp">2°</p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td valign="top">
-                            <p id="sunfx">96.9π8% chance the game will still be
-                              unfinished.</p>
-                          </td>
-                          <td valign="top">
-                            <p id="monfx">100% chance it is a great day to be a
-                              ghost.</p>
-                          </td>
-                          <td valign="top">
-                            <p id="tuefx">99% chance it will rain blocks.</p>
-                          </td>
-                          <td valign="top">
-                            <p id="wedfx">55% chance Mr. Dimock will say "ice
-                              cream!"</p>
-                          </td>
-                          <td valign="top">
-                            <p id="thufx">50% chance you have euphobia.</p>
-                          </td>
-                          <td valign="top">
-                            <p id="frifx">60% chance that [DATA EXPUNGED].</p>
-                          </td>
-                          <td valign="top">
-                            <p id="satfx">0% chance there is a new article.</p>
-                          </td>
-                        </tr>
-						</tbody>
-                    </table>
-                </div>
-                </div>
-            </div>
-            </div>
-			</article>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-142763986-1');
+	</script>
+
+</head>
+<body>
+<div class="pagination"> 
+	<a href="" class="active" style="color:black">Home</a>
+	<a  href="/Games/islandgame.html" style="color:blue">Game</a>
+	<a href="archive.html" style="color:blue">Archive</a> 
+	<a href="credits.html" style="color:blue">Credits</a> 
+	<a href="https://discord.gg/zNVPdtU" style="color:blue">Discord Server</a> 
+</div>
+	<div class="center">
+	<h1 align="center">Welcome to Farfetched News</h1>
+	<hr> 
+</div>
+<main>
+<article>
+	<p>If you look at Farfetched News often, you may have noticed that we have not been posting articles as often as we were when we had just started the paper. We at Farfetched News would like you, as the viewer, to know that this is not because we are lazy. It certainly isn’t because we are procrastinating (why would we be procrastinating now, when we could be procrastinating later). The truth is that we really like deadlines. We especially like the noise they make when they fly by. It sounds kind of like a whoosh sound, but with a little bit of a whistle at the end of it. </p>
+</article>
+<hr>
+<article>
+	<h2 align="center">Weather</h2>
+	<hr>
+	<div class="mobileHide">
+		<div style="width: 100%; display: table;">
+		<div style="display: table-row">
+		<div style="display: table-cell;">
+		<table width="100%" cellspacing="2" cellpadding="2" border="1">
+		<tbody>
+		<tr>
+			<td valign="top" align="center">
+				<h3>Sun</h3></td>
+			<td valign="top" align="center">
+				<h3>Mon</h3></td>
+			<td valign="top" align="center">
+				<h3>Tue<br></h3></td>
+			<td valign="top" align="center">
+				<h3>Wed<br></h3></td>
+			<td valign="top" align="center">
+				<h3>Thu<br></h3></td>
+			<td valign="top" align="center">
+				<h3>Fri<br></h3></td>
+			<td valign="top" align="center">
+				<h3>Sat<br></h3></td>
+		</tr>
+		<tr>
+			<td width="14%" valign="top" align="center">
+				<p id="suntemp">69°</p></td>
+			<td width="14%" valign="top" align="center">
+				<p id="montemp">75°</p></td>
+			<td width="14%" valign="top" align="center">
+				<p id="tuetemp">86.7°</p></td>
+			<td width="14%" valign="top" align="center">
+				<p id="wedtemp">87°</p></td>
+			<td width="14%" valign="top" align="center">
+				<p id="thutemp">67.0000001°</p></td>
+			<td width="14%" valign="top" align="center">
+				<p id="fritemp">78°</p></td>
+			<td width="14%" valign="top" align="center">
+				<p id="sattemp">2°</p></td>
+		</tr>
+		<tr>
+			<td valign="top">
+				<p id="sunfx">96.9π8% chance the game will still be unfinished.</p></td>
+			<td valign="top">
+				<p id="monfx">100% chance it is a great day to be a ghost.</p></td>
+			<td valign="top">
+				<p id="tuefx">99% chance it will rain blocks.</p></td>
+			<td valign="top">
+				<p id="wedfx">55% chance Mr. Dimock will say "ice cream!"</p></td>
+			<td valign="top">
+				<p id="thufx">50% chance you have euphobia.</p></td>
+			<td valign="top">
+				<p id="frifx">60% chance that [DATA EXPUNGED].</p></td>
+			<td valign="top">
+				<p id="satfx">0% chance there is a new article.</p></td>
+			</tr>
+		</tbody>
+		</table>
+		</div>
+		</div>
+		</div>
+		</div>
+
 	<div class="mobileShow">
-	<center>
-		<article>
+		<center>
 		<h3>Sun</h3>
-		<p id="suntempMobile">69°</p>
-		<p id="sunfxMobile">96.9π8% chance the game will still be unfinished.</p>
-		<hr>
+			<p id="suntempMobile">69°</p>
+			<p id="sunfxMobile">96.9π8% chance the game will still be unfinished.</p><hr>
 		<h3>Mon</h3>
-		<p id="montempMobile">75°</p>
-		<p id="monfxMobile">100% chance it is a great day to be a ghost.</p>
-		<hr>
+			<p id="montempMobile">75°</p>
+			<p id="monfxMobile">100% chance it is a great day to be a ghost.</p><hr>
 		<h3>Tue</h3>
-		<p id="tuetempMobile">86.7°</p>
-		<p id="tuefxMobile">99% chance it will rain blocks.</p>
-		<hr>
+			<p id="tuetempMobile">86.7°</p>
+			<p id="tuefxMobile">99% chance it will rain blocks.</p><hr>
 		<h3>Wed</h3>
-		<p id="wedtempMobile">87°</p>
-		<p id="wedfxMobile">55% chance Mr. Dimock will say "ice cream!"</p>
-		<hr>
+			<p id="wedtempMobile">87°</p>
+			<p id="wedfxMobile">55% chance Mr. Dimock will say "ice cream!"</p><hr>
 		<h3>Thu</h3>
-		<p id="thutempMobile">67.0000001°</p>
-		<p id="thufxMobile">50% chance you have euphobia.</p>
-		<hr>
+			<p id="thutempMobile">67.0000001°</p>
+			<p id="thufxMobile">50% chance you have euphobia.</p><hr>
 		<h3>Fri</h3>
-		<p if="fritempMobile">78°</p>
-		<p id="frifxMobile">60% chance that [DATA EXPUNGED].</p>
-		<hr>
+			<p if="fritempMobile">78°</p>
+			<p id="frifxMobile">60% chance that [DATA EXPUNGED].</p><hr>
 		<h3>Sat</h3>
-		<p id="sattempMobile">2°</p>
-		<p id="satfxMobile">0% chance there is a new article.</p>
-	</article>
-	</center>
+			<p id="sattempMobile">2°</p>
+			<p id="satfxMobile">0% chance there is a new article.</p>
+		</center>
 	</div>
-        <hr>
-        <article>
-          <h2 align="center">Of the Month</h2>
-          <div class="mobileHide">
-            <table width="100%" cellspacing="2" cellpadding="2"
-              align="center" border="1">
-              <tbody>
-                <tr>
-                  <td valign="top"><b>Quote of the Month</b><b><br>
-                    </b></td>
-                  <td valign="top"><b>Word of the Month</b><b><br>
-                    </b></td>
-                  <td valign="top"><b>Book of the Month</b><b><br>
-                    </b></td>
-                  <td valign="top"><b>Word of the Century</b><b><br>
-                    </b></td>
-                </tr>
-                <tr>
-                  <td width="25%" valign="top">
-                    <div class="col" style="background:white"><b> </b>
-                      <div style="width: 100%; display: table;"><b> </b>
-                        <div style="display: table-row"><b> </b><b> </b>
-                          <div style="display: table-cell;"><b> </b><b>"</b><p id="quoteMonthQuote">FILLERQUOTE</p>
-                            <p id="quoteMonthSayer">FILLERSAYER</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </td>
-                  <td width="25%" valign="top">
-                    <div class="col2" style="background:white">
-                      <div style="width: 100%; display: table;">
-                        <div style="display: table-cell;">
-							<p id="wordMonthWord">FILLERWORD</p>
-							<p id="wordMonthDef"> FILLERDEFINITION</p>
-							<p id="wordMonthEx"> FILLEREXAMPLE </p>
-                        </div>
-                      </div>
-                    </div>
-                  </td>
-                  <td valign="top">
-                    <p id="bookMonthTitle"><i>FILLERBOOKTITLE</i></p>
-                    <p> </p>
-                    <p id="bookMonthAuthor">FILLERBOOKAUTHOR</p>
-                  </td>
-                  <td width="25%" valign="top">
-                    <p>crumb</p>
-                    <p>(noun): a small fragment especially of something
-                      baked (as bread) slang: a worthless person; a
-                      word used when someone fails at something that is
-                      apparently easy</p>
-                    <p>example: "Max crumbed out when he had to spell
-                      'crumb' because he forgot a letter." </p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <div class="mobileShow">
-			<center><b>Quote of the Month</b></center>
-			<p id="quoteMonthQuoteMobile">I no longer feel any hope for the future of my
-			life. It is as though I had before me nothing
-			more than a long stretch of living death. I
-			cannot imagine any future for me other than a
-			ghastly one. Friendless and joyless.</p>
-			<p id="quoteMonthSayerMobile">- Ludwig Wittgenstein</p>
-			<hr>
-			<center><b>Word of the Month</b></center>
+</article><hr>
+
+<article>
+<h2 align="center">Of the Month</h2>
+	<div class="mobileHide">
+		<table width="100%" cellspacing="2" cellpadding="2" align="center" border="1">
+		<tbody>
+		<tr>
+			<td valign="top">
+				<b>Quote of the Month</b><br></td>
+			<td valign="top">
+				<b>Word of the Month</b><br></td>
+			<td valign="top">
+				<b>Book of the Month</b><br></td>
+			<td valign="top">
+				<b>Word of the Century</b><br></td>
+		</tr>
+		<tr>
+			<td width="25%" valign="top">
+			<div class="col" style="background:white">
+			<div style="width: 100%; display: table;">
+			<div style="display: table-row">
+			<div style="display: table-cell;">
+				<p id="quoteMonthQuote">Script not supported.</p>
+				<p id="quoteMonthSayer">Or broken.</p>
+			</div>
+			</div>
+			</div>
+			</div></td>
+			<td width="25%" valign="top">
+			<div class="col2" style="background:white">
+			<div style="width: 100%; display: table;">
+			<div style="display: table-cell;">
+				<p id="wordMonthWord">Script not supported.</p>
+				<p id="wordMonthDef">Or broken.</p>
+				<p id="wordMonthEx">Third line.</p>
+			</div>
+			</div>
+			</div></td>
+			<td valign="top">
+				<p id="bookMonthTitle">Script not supported.</p>
+				<p id="bookMonthAuthor">Or broken.</p></td>
+			<td width="25%" valign="top">
+				<p>crumb</p>
+				<p>(noun): a small fragment especially of something baked (as bread) slang: a worthless person; a word used when someone fails at something that is apparently easy</p>
+				<p>example: "Max crumbed out when he had to spell 'crumb' because he forgot a letter." </p></td>
+		</tr>
+		</tbody>
+		</table>
+	</div>
+	<div class="mobileShow">
+		<center><b>Quote of the Month</b></center>
+			<p id="quoteMonthQuoteMobile">I no longer feel any hope for the future of my life. It is as though I had before me nothing more than a long stretch of living death. I cannot imagine any future for me other than a ghastly one. Friendless and joyless.</p>
+			<p id="quoteMonthSayerMobile">- Ludwig Wittgenstein</p><hr>
+		<center><b>Word of the Month</b></center>
 			<p id="wordMonthWordMobile"> aggrandize </p>
 			<p id="wordMonthDefMobile"> (transitive verb): to make great or greater </p>
-			<p id="wordMonthExMobile"> example: "I shall aggrandize Elly Iceberg-man to king." </p>
-			<hr>
-			<center><b>Book of the Month</b></center>
+			<p id="wordMonthExMobile"> example: "I shall aggrandize Elly Iceberg-man to king." </p><hr>
+		<center><b>Book of the Month</b></center>
 			<p id="bookMonthTitleMobile"><i>A Separate Peace</i></p>
-			<p id="bookMonthAuthorMobile">By John Knowles</p>
-			<hr>
-			<center><b>Word of the Century</b></center>
+			<p id="bookMonthAuthorMobile">By John Knowles</p><hr>
+		<center><b>Word of the Century</b></center>
 			<p>crumb</p>
 			<p>(noun): a small fragment especially of something baked (as bread) <i>slang</i>: a worthless person; a word used when someone fails at something that is apparently easy</p>
 			<p>example: "Max crumbed out when he had to spell 'crumb,'" </p>
-          </div>
-        </article>
-        <hr>
-    </main>
+	</div>
+</article><hr>
+</main>
 
-		<!-- updates the weather and monthly sections from tsv files  -->
-		<script src="/Scripts/weather.js"></script>
-		<script src="/Scripts/words.js"></script>
-		<script src="/Scripts/quotes.js"></script>
-		<script src="/Scripts/books.js"></script>
+<div id="scripts">
+	<!-- updates the weather and monthly sections from tsv files  -->
+	<script src="/Scripts/weather.js"></script>
+	<script src="/Scripts/words.js"></script>
+	<script src="/Scripts/quotes.js"></script>
+	<script src="/Scripts/books.js"></script>
+</div>
 
-		<footer>
-			<div height:="2px" width:="5%" style="width:30px;height:30px; float:right; opacity:0.1;">
-				<a href="/2"> <picture> <source srcset="/Images/pi.webp" height:="2px" width:="5%"> <img alt="pi symbol" src="/Images/pi.jpg" height:="2px" ;="" width:="5%"></picture></a>
-			</div>
-		</footer>
-	</body>
+<footer>
+	<div height:="2px" width:="5%" style="width:30px;height:30px; float:right; opacity:0.1;">
+		<a href="/2"> <picture> <source srcset="/Images/pi.webp" height:="2px" width:="5%"> <img alt="pi symbol" src="/Images/pi.jpg" height:="2px" ;="" width:="5%"></picture></a>
+	</div>
+</footer>
+</body>
 </html>
