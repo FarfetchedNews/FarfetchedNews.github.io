@@ -1,8 +1,5 @@
 # [uncomment and run this line if it isn't working] install.packages("dplyr")
 
-setwd("~/")
-getwd()
-
 library(dplyr)
 
 # books --------------------------------------------------------------------
@@ -36,4 +33,4 @@ sample_n(wordsTable, 1) -> selectedWord
 selectedWord <- cbind(title = rownames(selectedWord), selectedWord)
 rownames(selectedWord) <- c()
 
-write.table (selectedWord, file = "wordeofthemonth.tsv", sep = '\t', quote = FALSE, na = "MISSING VALUE", row.names = FALSE)
+write.table (selectedWord, file = "wordofthemonth.tsv", sep = '\t', quote = FALSE, na = "MISSING VALUE", row.names = FALSE)

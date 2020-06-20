@@ -16,6 +16,6 @@ xhttp.onreadystatechange = function() {
 	};
 };
 
-xhttp.open("GET", "/Scripts/selectedweather.tsv", true);
+xhttp.open("GET", "/Scripts/wordofthemonth.tsv", true);
 
 xhttp.send();
