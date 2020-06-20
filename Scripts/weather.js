@@ -33,7 +33,7 @@ xhttpweather.onreadystatechange = function() {
 		document.getElementById('tuetempMobile').innerText = arrayWithValues[6];
 		document.getElementById('wedtempMobile').innerText = arrayWithValues[8];
 		document.getElementById('thutempMobile').innerText = arrayWithValues[10];
-		document.getElementById('fritempMobile').innerText = arrayWithValues[12];
+//		document.getElementById('fritempMobile').innerText = arrayWithValues[12];
 		document.getElementById('sattempMobile').innerText = arrayWithValues[14];
 		
 		//setfx
