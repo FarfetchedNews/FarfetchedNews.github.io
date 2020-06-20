@@ -1,9 +1,9 @@
-var xhttweather = new XMLHttpRequest();
+var xhttpweather = new XMLHttpRequest();
 var test;
 
-xhttweather.onreadystatechange = function() {
-	if (xhttweather.readyState == 4 && xhttweather.status == 200) {
-		var arrayWithValues = xhttweather.responseText.trim().split('\t'); //splits string at tab to array
+xhttpweather.onreadystatechange = function() {
+	if (xhttpweather.readyState == 4 && xhttpweather.status == 200) {
+		var arrayWithValues = xhttpweather.responseText.trim().split('\t'); //splits string at tab to array
 		weatherString = arrayWithValues.join('\n'); //joins the array to a string using new lines to separate
 		arrayWithValues = weatherString.split('\n'); //splits the string into an array at the new lines
 	
@@ -47,6 +47,6 @@ xhttweather.onreadystatechange = function() {
 	};
 };
 
-xhttweather.open("GET", "/Scripts/selectedweather.tsv", true);
+xhttpweather.open("GET", "/Scripts/selectedweather.tsv", true);
 
-xhttweather.send();
+xhttpweather.send();
