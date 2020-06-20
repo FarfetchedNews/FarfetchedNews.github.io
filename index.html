@@ -173,32 +173,32 @@
 	<div class="mobileShow">
 	<center>
 		<h3>Sun</h3>
-		<p>69°</p>
-		<p>96.9π8% chance the game will still be unfinished.</p>
+		<p id="suntemp">69°</p>
+		<p id="sunfx">96.9π8% chance the game will still be unfinished.</p>
 		<hr>
 		<h3>Mon</h3>
-		<p>75°</p>
-		<p>100% chance it is a great day to be a ghost.</p>
+		<p id="montemp">75°</p>
+		<p id="monfx">100% chance it is a great day to be a ghost.</p>
 		<hr>
 		<h3>Tue</h3>
-		<p>86.7°</p>
-		<p>99% chance it will rain blocks.</p>
+		<p id="tuetemp">86.7°</p>
+		<p id="tuefx">99% chance it will rain blocks.</p>
 		<hr>
 		<h3>Wed</h3>
-		<p>87°</p>
-		<p>55% chance Mr. Dimock will say "ice cream!"</p>
+		<p id="wedtemp">87°</p>
+		<p id="wedfx">55% chance Mr. Dimock will say "ice cream!"</p>
 		<hr>
 		<h3>Thu</h3>
-		<p>67.0000001°</p>
-		<p>50% chance you have euphobia.</p>
+		<p id="thutemp">67.0000001°</p>
+		<p id="thufx">50% chance you have euphobia.</p>
 		<hr>
 		<h3>Fri</h3>
-		<p>78°</p>
-		<p>60% chance that [DATA EXPUNGED].</p>
+		<p if="fritemp">78°</p>
+		<p id="frifx">60% chance that [DATA EXPUNGED].</p>
 		<hr>
 		<h3>Sat</h3>
-		<p>2°</p>
-		<p>0% chance there is a new article.</p>
+		<p id="sattemp">2°</p>
+		<p id="satfx">0% chance there is a new article.</p>
 	</center>
 	</div>
 	</article>
@@ -224,14 +224,14 @@
                     <div class="col" style="background:white"><b> </b>
                       <div style="width: 100%; display: table;"><b> </b>
                         <div style="display: table-row"><b> </b><b> </b>
-                          <div style="display: table-cell;"><b> </b><b>"</b>I
+                          <div style="display: table-cell;"><b> </b><b>"</b><p id="quoteMonthQuote">I
                             no longer feel any hope for the future of my
                             life. It is as though I had before me
                             nothing more than a long stretch of living
                             death. I cannot imagine any future for me
                             other than a ghastly one. Friendless and
-                            joyless."
-                            <p>- Ludwig Wittgenstein</p>
+                            joyless." </p>
+                            <p id="quoteMonthSayer">- Ludwig Wittgenstein</p>
                           </div>
                         </div>
                       </div>
@@ -241,17 +241,17 @@
                     <div class="col2" style="background:white">
                       <div style="width: 100%; display: table;">
                         <div style="display: table-cell;">
-							<p>aggrandize</p>
-							<p> (transitive verb): to make great or greater </p>
-							<p> example: "I shall aggrandize Elly Iceberg-man to king." </p>
+							<p id="wordMonthWord">aggrandize</p>
+							<p id="wordMonthDef"> (transitive verb): to make great or greater </p>
+							<p id="wordMonthEx"> example: "I shall aggrandize Elly Iceberg-man to king." </p>
                         </div>
                       </div>
                     </div>
                   </td>
                   <td valign="top">
-                    <p><i>A Separate Peace</i></p>
+                    <p id="bookMonthTitle"><i>A Separate Peace</i></p>
                     <p> </p>
-                    <p>By John Knowles</p>
+                    <p id="bookMonthAuthor">By John Knowles</p>
                   </td>
                   <td width="25%" valign="top">
                     <p>crumb</p>
@@ -281,8 +281,8 @@
 			<p id="wordMonthEx> example: "I shall aggrandize Elly Iceberg-man to king." </p>
 			<hr>
 			<center><b>Book of the Month</b></center>
-			<p><i>A Separate Peace</i></p>
-			<p>By John Knowles</p>
+			<p id="bookMonthTitle"><i>A Separate Peace</i></p>
+			<p id="bookMonthAuthor">By John Knowles</p>
 			<hr>
 			<center><b>Word of the Century</b></center>
 			<p>crumb</p>
@@ -294,9 +294,10 @@
     </main>
 
 		<!-- updates the weather and monthly sections from tsv files  -->
-		<script src="https://farfetchednews.github.io/Scripts/weather.js"></script>
-		<script src="https://farfetchednews.github.io/Scripts/words.js"></script>	
-		<script src="https://farfetchednews.github.io/Scripts/quotes.js"></script>		 		
+		<script src="/Scripts/weather.js"></script>
+		<script src="/Scripts/words.js"></script>
+		<script src="/Scripts/quotes.js"></script>
+		<script src="/Scripts/books.js"></script>
 
 		<footer>
 			<div height:="" 2px;="" width:="" 5%;=""style="width:30px;height:30px; float:right; opacity:0.1;">
