@@ -11,8 +11,8 @@ xhttwords.onreadystatechange = function() {
 	
 		//set word
 		document.getElementById('wordMonthWord').innerText = wordarray[3]; //Start at index three because headers take up the first two indices
-		document.getElementById('wordMonthDef').innerText = wordarray[3];
-		document.getElementById('wordMonthEx').innerText = wordarray[4];
+		document.getElementById('wordMonthDef').innerText = wordarray[4];
+		document.getElementById('wordMonthEx').innerText = wordarray[5];
 		document.getElementById('wordMonthWordMobile').innerText = wordarray[3];
 		document.getElementById('wordMonthDefMobile').innerText = wordarray[4];
 		document.getElementById('wordMonthExMobile').innerText = wordarray[5];
