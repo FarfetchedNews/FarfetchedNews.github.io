@@ -1,5 +1,0 @@
-Finish game.
-Maybe find way to automatically update the weather section like maybe something that fetches the information from a place that is easier to edit, for example.
-We should probably leave a file with the current plans for the sequel to the game as well as the "correct" paths for the current iteration.
-Also, I'd like if we could start establishing a social media presence for the website so we can more easily spread news.
-In cheese boat, gain Bemis Cave, Bemis Sense, fight guy that is immune to Bemis Sense who used to be Henry's friend
