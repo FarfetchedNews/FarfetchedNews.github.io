@@ -1,9 +1,9 @@
-var xhttp = new XMLHttpRequest();
+var xhttwords = new XMLHttpRequest();
 var test;
 
-xhttp.onreadystatechange = function() {
-	if (xhttp.readyState == 4 && xhttp.status == 200) {
-		var wordarray = xhttp.responseText.trim().split('\t'); //splits string at tab to array
+xhttwords.onreadystatechange = function() {
+	if (xhttwords.readyState == 4 && xhttwords.status == 200) {
+		var wordarray = xhttwords.responseText.trim().split('\t'); //splits string at tab to array
 		wordString = wordarray.join('\n'); //joins the array to a string using new lines to separate
 		wordarray = wordString.split('\n'); //splits the string into an array at the new lines
 
@@ -19,6 +19,6 @@ xhttp.onreadystatechange = function() {
 	};
 };
 
-xhttp.open("GET", "/Scripts/wordofthemonth.tsv", true);
+xhttwords.open("GET", "/Scripts/wordofthemonth.tsv", true);
 
-xhttp.send();
+xhttwords.send();
