@@ -15,7 +15,7 @@ write.table (selectedBook, file = "bookofthemonth.tsv", sep = '\t', quote = FALS
 
 # quotes ------------------------------------------------------------------
 
-read.table(file = 'quotes.tsv', sep = '\t', row.names = 1, header = TRUE) -> quotesTable
+read.table(file = './Databases/quotes.tsv', sep = '\t', row.names = 1, header = TRUE) -> quotesTable
 
 sample_n(quotesTable, 1) -> selectedQuote
 
@@ -26,7 +26,7 @@ write.table (selectedQuote, file = "quoteofthemonth.tsv", sep = '\t', quote = FA
 
 # words -------------------------------------------------------------------
 
-read.table(file = 'words.tsv', sep = '\t', row.names = 1, header = TRUE) -> wordsTable
+read.table(file = './Databases/words.tsv', sep = '\t', row.names = 1, header = TRUE) -> wordsTable
 
 sample_n(wordsTable, 1) -> selectedWord
 
