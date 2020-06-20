@@ -1,10 +1,9 @@
-
 Scripts/.Rhistory
-Scripts/weatherPicker.r.Rout
 Scripts/.RData
 Scripts/Run weather r file.bat
 Scripts/monthly.bat
-Scripts/monthlyStuffPicker.r.Rout
 Scripts/committandpushmonthly.bat
-Scripts/commitmessage.txt
 Scripts/weeklycommitandpush.bat
+Scripts/weatherPicker.r.Rout
+Scripts/monthlyStuffPicker.r.Rout
+Scripts/commitmessage.txt
