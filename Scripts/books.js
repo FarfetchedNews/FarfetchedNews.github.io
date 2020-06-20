@@ -1,9 +1,9 @@
-var xhttp = new XMLHttpRequest();
+var xhttpbook = new XMLHttpRequest();
 var test;
 
-xhttp.onreadystatechange = function() {
-	if (xhttp.readyState == 4 && xhttp.status == 200) {
-		var bookarray = xhttp.responseText.trim().split('\t'); //splits string at tab to array
+xhttpbook.onreadystatechange = function() {
+	if (xhttpbook.readyState == 4 && xhttpbook.status == 200) {
+		var bookarray = xhttpbook.responseText.trim().split('\t'); //splits string at tab to array
 		bookString = bookarray.join('\n'); //joins the array to a string using new lines to separate
 		bookarray = bookString.split('\n'); //splits the string into an array at the new lines
 
@@ -17,6 +17,6 @@ xhttp.onreadystatechange = function() {
 	};
 };
 
-xhttp.open("GET", "/Scripts/bookofthemonth.tsv", true);
+xhttpbook.open("GET", "/Scripts/bookofthemonth.tsv", true);
 
-xhttp.send();
+xhttpbook.send();
