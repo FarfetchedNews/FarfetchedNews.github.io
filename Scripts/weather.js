@@ -26,6 +26,24 @@ xhttp.onreadystatechange = function() {
 		document.getElementById('thufx').innerText = arrayWithValues[11];
 		document.getElementById('frifx').innerText = arrayWithValues[13];
 		document.getElementById('satfx').innerText = arrayWithValues[15];
+		
+		//set temps
+		document.getElementById('suntempMobile').innerText = arrayWithValues[2]; //Start at index two because headers take up the first two indices
+		document.getElementById('montempMobile').innerText = arrayWithValues[4];
+		document.getElementById('tuetempMobile').innerText = arrayWithValues[6];
+		document.getElementById('wedtempMobile').innerText = arrayWithValues[8];
+		document.getElementById('thutempMobile').innerText = arrayWithValues[10];
+		document.getElementById('fritempMobile').innerText = arrayWithValues[12];
+		document.getElementById('sattempMobile').innerText = arrayWithValues[14];
+		
+		//setfx
+		document.getElementById('sunfxMobile').innerText = arrayWithValues[3]; //Start at index three because headers take up the first two indices
+		document.getElementById('monfxMobile').innerText = arrayWithValues[5];
+		document.getElementById('tuefxMobile').innerText = arrayWithValues[7];
+		document.getElementById('wedfxMobile').innerText = arrayWithValues[9];
+		document.getElementById('thufxMobile').innerText = arrayWithValues[11];
+		document.getElementById('frifxMobile').innerText = arrayWithValues[13];
+		document.getElementById('satfxMobile').innerText = arrayWithValues[15];
 	};
 };
 
