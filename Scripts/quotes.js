@@ -9,9 +9,11 @@ xhttp.onreadystatechange = function() {
 
 	//	console.log(quotearray);
 	
-		//set word
+		//set quote
 		document.getElementById('quoteMonthQuote').innerText = quotearray[2]; //Start at index two because headers take up the first two indices
 		document.getElementById('quoteMonthSayer').innerText = quotearray[3];
+		document.getElementById('quoteMonthQuoteMobile').innerText = quotearray[2]; //Start at index two because headers take up the first two indices
+		document.getElementById('quoteMonthSayerMobile').innerText = quotearray[3];
 	};
 };
 
