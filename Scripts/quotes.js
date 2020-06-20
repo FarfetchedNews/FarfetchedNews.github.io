@@ -7,7 +7,7 @@ xhttp.onreadystatechange = function() {
 		quoteString = quotearray.join('\n'); //joins the array to a string using new lines to separate
 		quotearray = quoteString.split('\n'); //splits the string into an array at the new lines
 
-	//	console.log(quotearray);
+	console.log(quotearray);
 	
 		//set quote
 		document.getElementById('quoteMonthQuote').innerText = quotearray[2]; //Start at index two because headers take up the first two indices

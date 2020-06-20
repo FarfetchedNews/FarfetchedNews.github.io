@@ -7,7 +7,7 @@ xhttp.onreadystatechange = function() {
 		weatherString = arrayWithValues.join('\n'); //joins the array to a string using new lines to separate
 		arrayWithValues = weatherString.split('\n'); //splits the string into an array at the new lines
 	
-	//	console.log(arrayWithValues);
+	console.log(arrayWithValues);
 	
 		//set temps
 		document.getElementById('suntemp').innerText = arrayWithValues[2]; //Start at index two because headers take up the first two indices

@@ -7,7 +7,7 @@ xhttp.onreadystatechange = function() {
 		bookString = bookarray.join('\n'); //joins the array to a string using new lines to separate
 		bookarray = bookString.split('\n'); //splits the string into an array at the new lines
 
-	//	console.log(bookarray);
+	console.log(bookarray);
 	
 		//set book
 		document.getElementById('bookMonthTitle').innerText = bookarray[2]; //Start at index two because headers take up the first two indices
