@@ -15,6 +15,6 @@ xhttp.onreadystatechange = function() {
 	};
 };
 
-xhttp.open("GET", "/Scripts/quoteofthemonth.tsv", true);
+xhttp.open("GET", "/Scripts/bookofthemonth.tsv", true);
 
 xhttp.send();
