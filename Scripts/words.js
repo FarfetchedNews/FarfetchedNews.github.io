@@ -13,6 +13,9 @@ xhttp.onreadystatechange = function() {
 		document.getElementById('wordMonthWord').innerText = wordarray[2]; //Start at index two because headers take up the first two indices
 		document.getElementById('wordMonthDef').innerText = wordarray[3];
 		document.getElementById('wordMonthEx').innerText = wordarray[4];
+		document.getElementById('wordMonthWordMobile').innerText = wordarray[2]; //Start at index two because headers take up the first two indices
+		document.getElementById('wordMonthDefMobile').innerText = wordarray[3];
+		document.getElementById('wordMonthExMobile').innerText = wordarray[4];
 	};
 };
 
