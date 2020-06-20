@@ -1,9 +1,9 @@
-var xhttp = new XMLHttpRequest();
+var xhttpquote = new XMLHttpRequest();
 var test;
 
-xhttp.onreadystatechange = function() {
-	if (xhttp.readyState == 4 && xhttp.status == 200) {
-		var quotearray = xhttp.responseText.trim().split('\t'); //splits string at tab to array
+xhttpquote.onreadystatechange = function() {
+	if (xhttpquote.readyState == 4 && xhttpquote.status == 200) {
+		var quotearray = xhttpquote.responseText.trim().split('\t'); //splits string at tab to array
 		quoteString = quotearray.join('\n'); //joins the array to a string using new lines to separate
 		quotearray = quoteString.split('\n'); //splits the string into an array at the new lines
 
@@ -17,6 +17,6 @@ xhttp.onreadystatechange = function() {
 	};
 };
 
-xhttp.open("GET", "/Scripts/quoteofthemonth.tsv", true);
+xhttpquote.open("GET", "/Scripts/quoteofthemonth.tsv", true);
 
-xhttp.send();
+xhttpquote.send();
