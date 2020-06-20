@@ -9,9 +9,11 @@ xhttp.onreadystatechange = function() {
 
 	//	console.log(bookarray);
 	
-		//set word
+		//set book
 		document.getElementById('bookMonthTitle').innerText = bookarray[2]; //Start at index two because headers take up the first two indices
 		document.getElementById('bookMonthAuthor').innerText = bookarray[3];
+		document.getElementById('bookMonthTitleMobile').innerText = bookarray[2]; //Start at index two because headers take up the first two indices
+		document.getElementById('bookMonthAuthorMobile').innerText = bookarray[3];
 	};
 };
 
