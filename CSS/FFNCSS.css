@@ -8,7 +8,7 @@
 
 * { 
 	font-family: "dimock";
-	background-color: #F7F7F7;
+	background-color: ghostwhite;
 	color: #443850;
 }
 
@@ -51,7 +51,7 @@ text-align: left;
 
 .pagination a.active {
     background-color: #647841;
-    color: #F7F7F7;
+    color: ghostwhite;
 }
 
 .pagination a:hover:not(.active) {background-color: #ddd;}
