@@ -8,7 +8,7 @@
 
 * { 
 	font-family: "dimock";
-	background-color: #C0C5C1;
+	background-color: #F7F7F7;
 	color: #443850;
 }
 
@@ -36,8 +36,6 @@ text-align: right;
 .left{
 text-align: left;
 }
-
-
 
 .pagination {
     display: inline-block;
