@@ -6,7 +6,9 @@
 		url("/CSS/Fonts/dimock.woff") format("woff");
 }
 
-* { font-family: "dimock";
+* { 
+	font-family: "dimock";
+	color: #443850;
 }
 
 body{
