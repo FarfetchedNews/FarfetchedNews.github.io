@@ -8,11 +8,11 @@
 
 * { 
 	font-family: "dimock";
+	background-color: #C0C5C1;
 	color: #443850;
 }
 
 body{
-background-color: #C0C5C1;
 font-family: "dimock";
 margin:10px 100px 0px 100px;
 }
