@@ -20,7 +20,7 @@ margin:10px 100px 0px 100px;
 .paragraphborder  {
 border-radius: 25px;
 padding: 20px;
-border: 2px solid #73AD21;
+border: 2px solid #647841;
 }
 
 
@@ -51,7 +51,7 @@ text-align: left;
 
 .pagination a.active {
     background-color: #647841;
-    color: white;
+    color: #F7F7F7;
 }
 
 .pagination a:hover:not(.active) {background-color: #ddd;}
