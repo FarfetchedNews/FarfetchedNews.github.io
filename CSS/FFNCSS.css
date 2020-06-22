@@ -89,8 +89,6 @@ span.credits {
 .col2 {
   display: table-cell;
   padding: 0px;
-  height: 300px;
-  width: 140px;
 }
 
 #content-desktop {display: block;}
