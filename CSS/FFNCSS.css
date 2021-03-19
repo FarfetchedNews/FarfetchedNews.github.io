@@ -9,7 +9,6 @@ img.animated-gif{
 		url("/CSS/Fonts/Dimock.otf") format("opentype"),
 		url("/CSS/Fonts/dimock.woff2") format("woff2"),
 		url("/CSS/Fonts/dimock.woff") format("woff");
-	font-display: swap;
 }
 
 * { 
